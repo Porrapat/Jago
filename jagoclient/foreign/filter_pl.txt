@@ -1,0 +1,26 @@
+O Filtrach 
+
+Filtry, które Jago u¿ywa do blokowania infromacji i komunikatów mog±
+byc edytowane. Wed³ug ustawieñ domy¶lnych informacje i komunikaty od
+innych u¿ytkowników pojawiaj± siê w formie wyskakujacych okieniek.
+Mozna je wszystkie zablokowac w menu okna Po³aczenie.   
+
+W niektórych przypadkach bedziecie chcilei jednak dokonaæ blokowania
+selektywnego.  
+
+Aby to zrobic nalezy utworzyæ filtr. Kazdy z nich ma nazwê.Mo¿ecie
+zadecydowaæ czy dany filter powinien blokowaæ komunikat zupe³nie czy
+jedynie zapobiegaæ wyskakiwaniu okienka. 
+
+Filtr okre¶lany jest za pomoca ci±gu pocz±tkowego, ci±gu jaki
+wiadomo¶æ musi zawieraæ i ci±gu koñcowego. Ka¿dy z nich mo¿e byæ
+pusty. 
+
+Filtr pozytywny jest uzywany do wyswietlania komunikatów nawet jesli
+zablokowane one sa z poziomu menu.  Dziêki temu mozesz oczekiwaæ na
+wejscie lub wyj¶cie konkretnej osoby. Na przyklad: jesli opcja
+redukcji komunikatów jest w³±czona to komunikaty zaczynajace sie od  {
+s± nie wy¶wietlane.  Na³ó¿enie na nie pozytywnego filtra spowoduje, i¿
+bêd± pojawiaæ sie one w oknie g³ównym i bêd± sygnalizowane dzwiêkiem.
+
+

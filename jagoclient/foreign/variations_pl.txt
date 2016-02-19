@@ -1,0 +1,58 @@
+Trochê o wariantach
+
+Gry zapisywane s¹ w postaci drzewka. Ka¿dy wêze³ takiego drzewka mo¿e
+mieæ wiele rozga³êzieñ potomnych. Partia g³ówna rozpoczyna siê od
+pierwszego wêz³a i sk³ada siê ze wszystkich pierwszych rozga³êzieñ
+potomnych. Pozosta³e rozga³êzienia uwa¿ane s¹ za warianty poboczne.
+
+Wariant do bie¿¹cego ruchu wstawia siê klikaj¹c w inne pole na planszy
+z przytrzymanym SHIFT. Tak wstawione warianty oznaczane s¹ na ekranie
+zielon¹ kropk¹ i mo¿na przechodziæ do nich klikaj¹c na te pola z
+wciœniêtym klawiszem CTRL.
+
+Tworzyæ i przegl¹daæ warianty mo¿na równie¿ klikniêciem prawym
+przyciskiem myszy.
+
+Istniej¹ dwa rodzaje przedstawieñ wariantów. Warianty mog¹ byæ
+przedstawiane jako alternatywa wobec bie¿¹cego ruchu albo jako mo¿liwe
+kontynuacje tego ruchu. W obu przypadkach warianty oznaczone s¹ na
+planszy zielonymi kropkami. Informacje te mo¿na równie¿ ukrywaæ w
+przypadku gdy twórca pliku SGF zapewni³ w³asne znaczniki dla wariacji
+- nawet wtedy mo¿na jednak przejœæ do wariacji za pomoc¹ CTRL- klik
+lub prawego przycisku myszy. Wyœwietlanie wariantów mo¿na
+spersonalizowaæ w menu dla planszy.
+
+Ka¿dy wêze³ mo¿e mieæ swoje imiê wstawiane za pomoc¹ klawisz INSERT
+lub odpowiedniego polecenia menu. W menu istnieje równie¿ polecenia
+przejœcia do nastêpnego wêz³a z nazw¹. Nazwa wêz³a wyœwietla siê pod
+plansz¹ ale tylko gdy kursor znajduje siê poza plansz¹.
+
+Do wêz³a do³¹czyæ mo¿na równie¿ komentarz - pojawia siê on w okienku
+komentarzy gdzie mo¿na go tak¿e edytowaæ (w przypadku gier lokalnych
+nale¿y wy³¹czyæ opcjê KIBIC). Istnieje mo¿liwoœæ poszukiwania s³ów w
+komentarzach. Przeszukiwanie obejmie wszystkie wêz³y i jeœli nie
+znajdzie poszukiwanego ³añcucha zakoñczy siê w ostatnim wêŸle.
+
+Warianty tworzyæ mo¿na tak¿e za pomoc¹ odpowiedniego polecenia menu. W
+tym przypadku jako wariant dodawany jest pusty wêze³. Nastêpny kamieñ
+zostanie wstawiony w ten wêze³ chyba ¿e najpierw wstawisz tam
+komentarz czy te¿ inny ³añcuch - w takim przypadku w wêŸle tym nie
+bêdzie zapisanego innego ruchu.
+
+Za pomoc¹ tej funkcji mo¿na dokonywaæ lokalnej analizy gry on-line. W
+tym celu stworzyæ nale¿y nowy wariant i wstawiæ do niego ostatni ruch
+przeciwnika. Teraz mo¿na ju¿ analizowaæ pozycjê - wszelkie zmiany nie
+bêd¹ zapisywane w g³ównym drzewku gry ale w wariancie pobocznym.
+
+Za pomoc¹ odpowiedniego polecenia w menu mo¿na równie¿ opró¿niaæ
+poszczególne wêz³y.
+
+Nale¿y zwróciæ uwagê ¿e w ka¿dym wariancie numeracja ruchów zaczyna
+siê od 1.
+
+W partiach ze zdalnym po³¹czeniem niektóre dzia³ania na g³ównym
+drzewku mog¹ byæ niedostêpne - bowiem g³ówne drzewko pozostaje pod
+kontrola serwera. Ruchy z koñca tego drzewka wys³ane mog¹ byæ na
+serwer zamiast na planszê. Serwer dopiero póŸniej wstawia ruch na
+planszê klient jednak otrzymuje znacznik interakcji, poniewa¿ ruch
+zosta³ ju¿ przes³any.

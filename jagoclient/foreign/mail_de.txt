@@ -1,0 +1,14 @@
+Spiele per E-Mail verschicken
+
+Man kann Spiele über das Internet per E-Mail versenden.
+
+Es öffnet sich ein Dialog, in dem man seine E-Mail Adresse und die des 
+Adressaten eingibt. Außerdem muß man einen Server angeben, der das 
+SMTP-Protokoll versteht. Dies sollte derselbe Server sein, mit dem man 
+normalerweise seine E-Mail verschickt. Der Server muß in jedem 
+E-Mail-Programm eingestellt werden.
+
+Sie können auch den Text der E-Mail ändern. So kann man etwa vor dem 
+Spiel noch eigene Kommentare einfügen. Eine Klammer auf ( an der ersten 
+Position in einer Zeile markiert allerdings den Beginn des Spieles.
+

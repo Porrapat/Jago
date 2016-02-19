@@ -1,0 +1,25 @@
+Contourner les pare-feu
+
+Si vous êtes derrière le pare-feu d'une entreprise, vous ne pourrez
+sans doute pas vous connecter directement à un serveur de Go 
+sur Internet. Si vous pouvez vous connecter avec Telnet à une machine 
+derrière le pare-feu, vous pourrez surmonter cette difficulté.
+
+Pour cela, ajouter une nouvelle connexion à un serveur, à partir
+de la fenêtre principal. Utiliser le port 23. Ne remplissez pas les champs 
+pour le nom et le mot de passe, mais laissez les vides. 
+
+Connecter vous à cette machine. Vous vous retrouvez dans une session
+telnet. Logger vous comme d'habitude, et lancer un telnet vers le 
+serveur internet, comme
+
+telnet igs.nuri.net 6969
+
+Cela vous connectera à IGS à partir de cette machine distante. Maintenant
+le serveur IGS vous demande votre login et mot de passe. Vous pouvez
+à partir de maintenant utiliser la connexion normallement. Vous déconnectez
+d'IGS vous ramenera en session telnet. A ce moment, vous pouvez fermer la 
+fenêtre de connexion.
+
+L'encodage local n'est pas utilisable sur les sessions Telnet à cause du 
+protocole utilisé. 

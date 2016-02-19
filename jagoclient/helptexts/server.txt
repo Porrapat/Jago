@@ -1,0 +1,39 @@
+Server Help
+
+I cannot give a complete introduction into the IGS protocol here. For a
+start type "help" when connected. Please look into the HTML help for
+more details.
+
+You can use the Games button to display all current games. From there
+you can select a game and observe it. This will give you a board view of
+the game, which is updated on every move. A Peek or a Status display the
+current state of the game only. Status is faster, but does not load the
+game history.
+
+Next you may wish to talk to someone. Use the talk command in the
+following way:
+
+talk name Hi, how are you? Want a game?
+
+After the first talk you can abbreviate this to
+
+. Hi, how are you? Want a game?
+
+If someone talks to you, this will be displayed in a separate window.
+You can use this window to answer directly.
+
+If you want to match someone, use the match command
+
+match name b 19 10 5
+
+Here, b is your color, 19 is the board size. The game will be in 10
+minutes with 5 minutes extra time for 25 moves. You can also select
+the player from the player list, which you get by pressing the Who
+button. Then you can press the Match button and fill out the form.
+
+If someone matches you, the server will send you the proposed answers
+for accepting or declining the match offer. This will open a dialog,
+where you can accept or decline the game. The format of the game
+request is the same as in the match request.
+
+See the board help for more information about playing a game.

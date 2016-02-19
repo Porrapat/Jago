@@ -1,0 +1,21 @@
+Sound
+
+Since I like it, I implemented sound. You need a sound board and a 
+multi-media capable operating system, or you are restricted to beeps. 
+If you switch sound on, you will get a sound
+
+- when your opponent sets a stone, while you are investigating a
+  variation.
+- when you get a message, while you switched off the message dialogs.
+- when you have sent a move to the server, which is not yet confirmed.
+
+You can set the sounds to Simple getting less verbose sounds. If you set
+it to Beeps, you get a beep, when it is your move and you cannot see
+the move of your opponent, because you are in a variation, and you get a
+beep, if you switched off messages and get a message.
+
+I experience occasional hangs of the Java system, when sound is
+enabled under Windows. This does not apply to beeps.
+
+Moreover, you can turn on a warning counter, which will warn you, when
+your time is getting low with 10 second ticks.

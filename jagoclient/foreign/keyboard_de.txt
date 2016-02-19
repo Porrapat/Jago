@@ -1,0 +1,31 @@
+Tastaturkürzel
+
+Sie können die Tastatur benutzen, um sich in einem Spiel vor und zurück 
+zu bewegen. Aber Sie müssen zuerst in das Spielfeld (oder in die Nähe) 
+klicken, damit dieses den Tastaturfokus bekommt.
+
+Die folgenden Tastatureingaben werden erkannt:
+
+Pfeil auf,ab <-> Geht einen Zug vor und zurück.
+Seite hoch,runter <-> Geht mehrere Züge vor und zurück.
+Pfeil links,rechts <-> Geht zu Varianten.
+*,home <-> Geht zur Hauptvariante.
+/,end <-> Geht ans Ende der Hauptvariante.
+v,V <-> Geht zum Anfang der Variante.
+Löschtaste <-> Nimmt den Zug zurück.
+Einfügen <-> Setzt ein Markierung beim aktuellen Zug.
++ <-> Zur nächsten Markierung.
+- <-> Zur vorherigen Markierung.
+
+m,M <-> Markieren.
+c,C <-> Markieren mit Kreisen.
+t,T <-> Markieren mit Dreiecken.
+s,S <-> Markieren mit Quadraten
+r,R <-> Markieren mit Kreuzen
+l,L <-> Markieren mit Buchstaben.
+b <-> Setze scharze Steine.
+w <-> Setze weiße Steine.
+B <-> Schwarz am Zug.
+W <-> Weiß am Zug.
+p <-> Weiter Züge eingeben.
+

@@ -1,0 +1,18 @@
+Fenster
+
+Details über Fenster hängen vom Betriebssystem ab.
+
+Leider gibt es einen Bug in Windows, der der Eingabe von @ in Textzeilen 
+verhindert. Drücken Sie stattdessen ALT-6-4.
+
+Jago kann sich die Größe und Position von Fenstern merken. Dies muß man 
+allerdings selbst veranlassen. Diese Einstellungen werden in einer Datei 
+namens go.cfg abgespeichert.
+
+Von Textzeilen und Ausgabefenstern läßt sich auf die übliche Art und 
+Weise Text mit der Zwischenablage austauschen. Dazu klicken Sie mit der 
+rechten Maustaste und wählen das entsprechende Kommando aus. Die 
+normalen Tasten (CTRL-C usw.) sollte auch funktionieren.
+
+Die Textfelder, die Kommandos an den Server schicken, merken sich alte 
+Kommandos. Benutzen Sie die Pfeiltasten, um diese Kommandos aufzurufen.

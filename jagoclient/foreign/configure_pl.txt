@@ -1,0 +1,53 @@
+Konfiguracja Twojego Po³±czenia
+
+W celu ustawienia po³±czenia serwera naci¶nij przycisk EDIT lub ADD.
+Pojawi siê okno dialogowe gdzie bêdziesz musia³ wprowadziæ nastêpuj±ce
+dane:
+
+- Name: Nazwa po³±czenia, któr± siê bêdzie pojawiaæ na li¶cie
+dostêpnych po³±czeñ. 
+- Server: Internetowy adres serwera. Patrz poni¿ej na listê dostêpnych
+adresów. 
+- Port: Port monitorowany przez serwer (patrz poni¿ej). Je¿eli
+bêdziesz ³±czy³ siê przez us³ugê   telnet (patrz tez "About
+Firewalls"), wprowad¼ 23. 
+- User name: Nazwa u¿ytkownika na serwerze. Je¶li chcesz korzystaæ z
+konta "guest" zostaw to       pole puste i przejd¼ do kolejnych. 
+- Password: Has³o. Je¿eli zostawisz to pole puste bêdziesz musia³
+wpisywaæ has³o ka¿dorazowo   chyba, ze zostawi³e¶ równie¿ puste pole
+"User name"
+- Move Style: Nie zmieniaj tego ustawienia (domy¶lnie "move") je¶li
+nie wiesz co dok³adnie   oznacza. 
+- Encoding: Ustawienie to okre¶la jak bêd± t³umaczone ³añcuchy znakowe
+pomiêdzy Jav± a   serwerem. Je¶li dodajesz nowe po³±czenie, ustawienie
+"encoding" bêdzie domy¶lne. Dla Europy     jest to 8859_1 lub Cp1252.
+Je¶li zostawisz to pole puste, domy¶lna (lokalna) strona kodowa    
+bêdzie u¿yta. Zawsze mo¿esz spróbowaæ ustawiæ kody ASCII. Je¿eli
+poprzedzisz stronê kodowa   wykrzyknikiem filtrowanie przez Telnet nie
+bêdzie wykonywane.
+
+Oto istniej±ce adresy dostêpnych serwerów (wraz z portami)
+
+igs.nuri.net 6969
+nngs.cosmic.org 9696
+lgs.hinet.net 9696
+wing.brlnet.net 1515
+
+Program Jago powinien mieæ je ju¿ skonfigurowane. 
+
+Problemy z kodowaniem znaków:
+
+Pewne strony kodowe zawieraj± wiêcej ni¿ 256 znaków. W celu
+przystosowania do ich obs³ugi serwer wysy³a pewna sekwencje. Jednak¿e,
+mo¿e siê zdarzyæ "format error" je¶li mamy ¼le kodowanie znaków. W
+takim wypadku po³±czenie zostaje zamkniête i dostajemy komunikat
+"MalFormedInputException". 
+
+By unikn±æ tego problemu ustaw poprawna stronê kodowa (ewentualnie
+8859_1 lub ASCII). Kolejn± trudno¶æ mo¿e stanowiæ przes³anie znaków
+dodawanych przez Telnet, które dekoder mo¿e blednie zinterpretowaæ.
+Normalnie jest to odfiltrowywane co równie¿ mo¿e byæ blednie
+interpretowane. Je¶li problemy siê pojawia poprzed¼ ustawienia strony
+kodowej wykrzyknikiem (np. !Cp1552). Teraz Jago nie bêdzie
+odfiltrowywa³ poleceñ Telnetu. Je¿eli wci±æ nie bêdzie dzia³aæ spróbuj
+"!ASCII" a pó¼niej "ASCII".

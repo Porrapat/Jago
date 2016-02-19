@@ -1,0 +1,108 @@
+Board Window
+
+This window contains the following elements:
+
+- the menu
+- the board itself
+- an information label
+- a label displaying the field coordinates under the cursor
+- the undo button
+- the movement buttons
+- variation buttons
+- a send button, if it is not a local board
+- a comment window (or Kibitz window)
+
+The Menu
+
+The file menu lets you empty the board, save it to disk or load a game
+from disk. Emtying and loading are enabled only for local boards. The
+same applies to changing the board size, which is done automatically for
+internet games.
+
+The settings menu lets you choose, if you play, who is to play, or if
+you do special things. You can set marks to empty places and stones, or
+set the letters a,b,c... You can even remove stones from the board.
+Setting up a handicap is done by placing black stones to the board and
+choosing the "White to play" button. There is also an option to remove
+all marks.
+
+Note, that while playing a game over the internet, the server controls
+the move. So your move is not valid until it is confirmed by the server.
+This only applies to the main variation. In side variations, you can do
+whatever you want.
+
+There is a menu to modify the game tree by creating empty nodes. Please
+refer to the help about variations for details.
+
+The score command is used to finish the game. Refer to the help about
+playing a game for more information.
+
+The Board
+
+The board displays the current situation. Marks are displayed in blue
+and letters in yellow. The last move is emphasized by a white rectangle.
+Variations are marked by green dots (refer to the help about
+variations). A gray marker is displayed for moves, which are sent but
+not yet confirmed by the server.
+
+Below the board, you see a label, displaying information about the
+expected action. It will also show, if you are in the main variation by
+a star (*), and if you are at the end of the main variation by a double
+star (**). Beside it, you see the coordinates under your mouse cursor.
+
+The Buttons
+
+The undo button works differently over the net and locally. Over the
+net and at the end of the main variation, it will send the undo command.
+This command is used to undo the move of the opponent and may only be
+used, if it is your turn. Elsewhere, this button removes the last move.
+
+The direction buttons are used to go up and down in the variation.
+
+The variation buttons are used to switch between variations. The V
+button will go upwards to the first move of the current variation. The *
+button will go upwards to the main variation and the ** button will jump
+to the end of the main variation.
+
+The send button is used on non-local board to send commands to the
+server quickly.
+
+Comment Window
+
+This area may either be used by a Kibitz window or a comment window. 
+The Kibitz window is only available in on-line games of course. You 
+can watch the flow of the Kibitz rather than seeing only the Kibitz 
+comments per move. However, you can always switch to the comment 
+window with a menu option. The Kibitz windows may also display server 
+output.
+
+This comment area lets you add comments to your game. Some comments 
+are added by the server automatically. A line break in the comment 
+window will be saved to the file as a paragraph break.
+
+Optional things
+
+If you have chosen the option, there will be an extra send field.
+Entering text here and pressing return send the text unparsed to the
+server.
+
+Furthermore, there might be an information label containing the
+remaining times for each player. If not, the times are displayed in the
+window title or the big timer label above the comment area.
+
+If chosen, the big timer will display the remaining times for white
+and black (white time on the left). The timer will turn dark red,
+if it is less than 60 seconds, and brighter red below 30 seconds.
+If selected, warning ticks will sound on 30,20 and 10 seconds.
+
+Board options
+
+You can set the board color, stone and sparkle color in the options 
+menu, but it is best to use a brownish tone. Furthermore, you can 
+choose a nice wooden board and anti-aliased stones, which throw 
+shadows on the board. This will take time to get computed at first 
+display and every time you resize the board.
+
+Note that some board options must to be chosen, before the board is 
+opened. However, the coordinate layout and the true color options
+are available at all times.

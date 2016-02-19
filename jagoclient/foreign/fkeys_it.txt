@@ -1,0 +1,1 @@
+I tasti funzioneI tasti funzione possono essere utilizzati per spedire del testo alserver. Puoi programmare ognuno dei tasti funzione. I tasti possonoessere utilizzati solo quando e' attiva la finestra della connessioneo in quella del goban.  Ad esempio potresti assegnare il comandoforward al tasto F1. Questo comando e' utilizzato nelle partitedimostrative (demo games).

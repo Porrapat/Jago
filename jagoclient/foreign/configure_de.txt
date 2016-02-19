@@ -1,0 +1,31 @@
+Verbindungen Einrichten
+
+Um eine Verbindung zu einem Server zu konfigurieren, wählen Sie entweder 
+"Bearbeiten" oder "Hinzufügen". In folgenden Dialog stellen Sie 
+folgendes ein:
+
+- Name: Dies ist der Name, mit dem die Verbindung im Menü erscheint.
+- Server: Die Internet-Adresse des Servers.
+- Port: Der Port auf dem der Server wartet. Für Telnet-Verbindungen 
+  benutzen Sie 23.
+- Benutzername: Ihr Name beim Server. Für eine Gastverbindung lassen Sie
+  das Feld leer. Dann werden Sie zur Eingabe des Namens aufgefordert.
+- Passwort: Ihr Passwort, das sie vom Server erhalten haben. Wenn Sie 
+  das Feld leer lassen, aber einen Benutzernamen eingegeben haben, 
+  werden Sie zuer Eingabe vor der Verbindung aufgefordert.
+- Zugmodus: Wenn Sie nicht wissen, was das bedeutet, lassen Sie es auf 
+  "Zug". Manche Server erlauben es, die verbrauchte Zeit zu senden.
+- Kodierung: Per Default wird Ihre aktuelle Kodierung angezeigt. Stellen
+  Sie auf 8859_1 oder Cp1252 um, wenn es Probleme mit der Darstellung von
+  Zeichen gibt. Falls hier nichts steht, wird keine Kodierung
+  verwendet. Fall eine MalformedInputException auftritt, verwenden
+  Sie "!ASCII".
+
+Es folgen die Internet-Adressen und die Ports der bekannten Server.
+
+igs.nuri.net 6969
+nngs.cosmic.org 9696
+lgs.hinet.net 9696
+wing.brlnet.net 1515
+
+

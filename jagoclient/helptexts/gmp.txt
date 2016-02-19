@@ -1,0 +1,19 @@
+Play against a program
+
+If you have a go playing program that supports the go modem protocol,
+you can play against it with Jago. This protocol does not need a
+modem, as the name suggests, but can connect to any program on your
+machine. Jago will start the program and attempt to get moves from
+it.
+
+I could test this against GnuGo on Linux and Windows. If you wish, you
+can download both versions from the homepage of Gnu Go development at
+
+http://www.gnu.org/software/gnugo/
+
+I have binaries on our Web server. See the documentation for more
+information.
+
+In the settings dialog you have to enter the path to the gnugo
+program, and any needed parameters. If this path contains blanks,
+enclose the path in quotes ".

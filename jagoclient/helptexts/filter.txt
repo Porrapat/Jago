@@ -1,0 +1,23 @@
+About Filters
+
+You can edit the filters, which Jago uses to block information or 
+messages. By default, information or messages from other users pop up 
+a dialog. You can switch this off for all messages with the menu entry 
+in the connection frame. But sometimes you will want to block only 
+specific messages.
+
+You may create a filter for this. A filter has a name. You can choose,
+if the filter should block the message off completely or only prevent a
+dialog window to pop up.
+
+A filter is determined by a starting string, a string the message must
+contain and an end string. Each of these may be empty.
+
+A positive filter is used to let messages through, even though they 
+are blocked off by menu choices. This way you can watch for a specific 
+person to enter or leave the server. E.g, if "reduced output" is on, 
+messages starting with { are normally blocked off. If a positive 
+filter fits on these messages, they will still show up in the 
+connection window, and you will get a message sound.
+
+However, there is a specific menu entry to wait for a player.

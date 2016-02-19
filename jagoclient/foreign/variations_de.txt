@@ -1,0 +1,28 @@
+Varianten
+
+Spiele werden in Bäumen gespeichert (die man sich umgekehrt vorstellt). 
+Jeder Knoten des Baumes kann viele Kinder haben. Geht man jeweils den 
+linkesten Knoten herab, so hat man die Hauptvariante. Allerdings kann 
+Jago auch mehrere Hauptvarianten haben. Um eine neue Hauptvariante zu 
+erzeugen, erzeugen Sie ein neues Spiel, indem Sie ein Variante des 
+ersten Zuges erzeugen.
+
+Eine Variante erzeugt man, indem man mit der rechten Maustaste auf eine 
+Alternativposition für den letzten Zug klickt (oder mit gehaltener 
+Shift-Taste). Die Varianten werden in Grün angezeigt. Man kann zu einer 
+Variante verzweigen, indem man mit der rechten Maustaste (oder mit 
+gehaltener Control-Taste) auf die Variante klickt.
+
+Um andere SGF-Editoren zu unterstützen, gibt es die Möglichkeit, die
+Anzeige von Variationen zu verändern. Man kann entweder die
+Variationen anzeigen, die Alternativen zum letzten Zug sind, oder die
+auf den letzten Zug folgenden Möglichkeiten. Außerdem kann die Anzeige
+ganz unterdrückt werden, wobei aber das Anspringen einer Variation mit
+der Maus immer noch funktioniert. Dies sollte man einstallen, wenn der
+SGF-Autor die Variationen mit Buchstaben markiert hat.
+
+Es gibt aber auch Varianten anderer Art. Um solche zu erzeugen, wählen 
+Sie den entsprechenden Menüpunkt. Dies nimmt den letzten Zug zurück und 
+Sie können beliebige Dinge eingeben. Übrigens erzeugt das Setzen von 
+Steinen keinen neuen Knoten (nur das Spielen von Steinen). Man kann aber 
+einen neuen Knoten mit dem ensprechenden Menüpunkt erzeugen.

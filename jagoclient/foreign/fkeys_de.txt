@@ -1,0 +1,6 @@
+Funktionstasten
+
+Sie können die Funktionstasten programmieren, so daß gewisse Kommandos 
+direkt an den Server geschickt werden.
+
+Z.B. ist das forward-Kommando nützlich in Demospielen.

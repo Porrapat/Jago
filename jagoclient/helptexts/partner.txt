@@ -1,0 +1,21 @@
+Partner Connection
+
+With this window, you are connected to a Go partner somewhere in the
+world. To send chat to him, enter the text in the text field below the
+output window.
+
+To start a game, press the Game button and enter the parameters, then 
+press the Request button. If your partner accepts the game, a board 
+will show up and you can do moves.
+
+Playing the game is similar to playing over the IGS/NNGS. But timings 
+are more accurate, since the time is only running while you are 
+thinking. Also, there is no sever to count the result for you. So you 
+have to end the game with the corresponding menu item, remove all 
+prisoners and use the menu entry to count the result.
+
+Note, that your partner has to agree ending of the game.
+
+You can request an undo of your partner. This will undo your partner's 
+move and your own and will add 30 seconds of extra time to your 
+partner. The partner can decline the undo.

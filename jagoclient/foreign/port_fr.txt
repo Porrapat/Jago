@@ -1,0 +1,3 @@
+Cela défini le port du serveur pour les connexions au partenaire.
+La valeur par défaut est 6970.
+

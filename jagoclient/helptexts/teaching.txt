@@ -1,0 +1,20 @@
+Teaching Games
+
+Some servers have an option to teach a game. I.e., one player is
+playing both sides. The necessary information should be available with
+the command
+
+    help teach
+
+Usually, you open a teaching game with
+
+    teach 19
+
+where 19 is the board size. You then play against yourself. You can
+use the kibitz command to comment the game in one of the following two
+versions
+
+    kibitz This is a good move!
+    ' Too slow!
+
+As usual, these kibitzes will be saved in the game tree as comments.

@@ -1,0 +1,33 @@
+Observing vs. Playing
+
+You should be aware that due to the unlucky server protocol, there may
+be problems with determining the right type of board.
+
+First of all, if you choose to observe a game, Jago will open an
+observer board. It will then run the status command, mainly to get the
+board size. After this, it will start observing the game. Then the
+server sends a move to this game number, which is rejected, because Jago
+wants all previous moves first. So the moves command is sent and the
+position builds up.
+
+If you close an observer board, the unobserve command is sent.
+
+Secondly, if you start playing a game, the game number is unknown and
+Jago fetches the first unknown game and opens a playing board. After the
+status command has been processed (see above), Jago will load the board
+position, for it may happen that the game has been loaded after
+adjournment. Closing a playing board will send nothing.
+
+Several problems arise out of this procedure.
+
+(a) You close a playing board accidently. In this case, adjourn and
+reload the game.
+
+(b) You get a playing board, but want an observer board. This may
+happen, if the server starts or keeps sending moves to you (net lag or
+other reason). This may not worry you, but you can switch playing off,
+so moves will no longer be sent.
+
+(c) You may even play into an observer board (do not know an
+application), by switching playing on.
+

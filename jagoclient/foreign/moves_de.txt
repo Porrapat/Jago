@@ -1,0 +1,21 @@
+Steine Setzen
+
+Um einen einfachen Zug zu machen, klicken Sie auf das Board. Sie können 
+nur am Ende einer Variation einen Zug einfügen. Um eine Variante zu 
+erzeugen, klicken Sie mit der rechten Maustaste, oder mit der 
+Shift-Taste. Dies erzeugt eine Variante, bei der der aktuelle Zug an der 
+neuen Stelle steht.
+
+Es gibt einen speziellen Text über den Spielbaum und Varianten.
+
+Um zu einer Variante zu gehen, klicken Sie mit der rechten Maustaste 
+oder mit niedergehaltener Control-taste auf die Markierung für die 
+Variante.
+
+Man kann nachträglich einen Zug versetzen. Dies ist insofern gefährlich, 
+als man sicher sein muß, daß das Feld im späteren Spielbaum nicht 
+besetzt wird. Zum Versetzen des Zuges klicken Sie auf das neue Feld und 
+halten die Shift und die Control-Taste nieder.
+
+(Auf der deutschen Tastatur ist die Shift-Taste mit einem Pfeil aufwärts 
+markiert und die Control-Taste heißt Strg.)

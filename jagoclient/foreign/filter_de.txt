@@ -1,0 +1,8 @@
+Filter
+
+Filter blockieren Meldungen vom Server, oder lassen umgekehrt Meldungen 
+durch, die global blockiert wurden (Positiv-Filter). Ein vollständiger 
+Block zeigt solche Meldungen nicht einmal im Verbindungsfenster an.
+
+Message werden an Ihrem Anfang, Ende oder eine Teilstring erkannt. Die 
+Felder werden mit "und" verknüpft.

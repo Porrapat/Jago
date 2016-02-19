@@ -1,0 +1,22 @@
+Vous pouvez ici modifier les options, qui peuvent améliorer 
+le comportement de Jago sur votre système.
+
+"Boites de dialogues aérés" doit comprimer les messages de boites dialogues
+au lieu d'essayer de mémoriser leur position.
+
+"Utiliser l'icône de fenêtre" utilisera l'icône Jago dans la barre de titre
+
+"Utiliser les zones de texte/listes AWT" vous permet d'utiliser les zones de texte
+normales et les listes des jeux/joueurs. Si vous n'êtes pas satisfait par les 
+réponses du serveur dans le Terminal de Connexion, essayez d'utiliser les 
+zones de texte AWT. Cela peut être plus rapide ou plus lent, suivant votre 
+système. De plus, vous ne serez capable de stocker qu'un maximum de 32kb. 
+L'option Liste ne s'applique qu'aux listes de jeux/joueurs  ou similaire. 
+
+"Confirmations" affiche une demande de confirmation en fermant un plateau 
+de jeu, une connection ou en quittant Jago.
+
+"Linux" gère les fonctions spéciales de la JVM Linux. Premièrement, les fenètres
+se fermeront plus rapidement. Deuxièmement, les boutons de navigation sont 
+utilisés normalement (ce qui est lent sous Windows, mais pas Linux)
+

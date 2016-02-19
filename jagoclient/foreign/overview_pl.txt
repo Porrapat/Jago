@@ -1,0 +1,11 @@
+Opis
+
+Je¶li zdarzy³o ci siê ju¿ graæ w Go za pomoc± serwera internetowego
+nasz klient nie powinien sprawiaæ ci ¿adnych k³opotów. Musisz tylko
+opisaæ po³±czenie, a nastêpnie je uruchomiæ. Istnieje mo¿liwo¶æ
+logowania automatycznego, jak i tak¿e rêcznego wprowadzania has³a i
+nazwy u¿ytkownika.
+
+Je¶li nigdy nie mia³e¶ do czynienia z internetow± gr± w Go, warto
+przeczytaæ HTML-ow± dokumentacjê do³±czon± do tego programu i
+korzystaæ z plików pomocy.

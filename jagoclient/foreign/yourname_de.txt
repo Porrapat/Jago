@@ -1,0 +1,3 @@
+Hier geben Sie den Namen für Ihren Server ein. Das normale Format ist 
+"Vorname Nachname (Rang)". Der Name darf Leerzeichen enthalten.
+

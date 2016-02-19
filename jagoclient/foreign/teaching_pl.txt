@@ -1,0 +1,18 @@
+Gry pokazowe
+
+Na niektórych serwerach istnieje mo?liwo?? ustawienia gry pokazowej-
+tzn takiej, w której gracz gra sam ze sob?. Potrzebne informacje
+znale?? mo?na po wpisaniu komendy
+
+help teach
+
+Zazwyczaj gr? pokazow? w??cza si? komend?
+
+teach 19
+
+gdzie 19 to wielko?? planszy. Do gry mo?na do??cza? komentarz w dwojaki sposób
+
+kibitz dobry ruch
+‘za wolny!
+
+Uwagi te zostan? do??czone do pliku gry jako komentarz.

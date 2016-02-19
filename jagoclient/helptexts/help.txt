@@ -1,0 +1,8 @@
+About Help
+
+The help system consists of several files with extension TXT. You may
+edit and change the files to your liking.
+
+The english help files are packed into the jago.jar archive, being the 
+default help files. You need to unzip this archive, change the files and
+jar it again, including all class files and resources 

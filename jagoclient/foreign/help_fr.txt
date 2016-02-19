@@ -1,0 +1,9 @@
+A propos de l'aide
+
+Le système d'aide est fait de plusieurs fichiers avec l'extension TXT. Vous
+pouvez les éditer et les changer suivant votre envie. 
+
+Les fichiers d'aide en anglais sont compactés dans l'archive jago.jar, et ce
+sont les fichiers d'aide par défaut. Vous aurez besoin de décompresser 
+cette archive, d'éditer les fichiers et de les recompresser en jar, en y incluant
+tous les fichiers class et ressources.

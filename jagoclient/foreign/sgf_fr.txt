@@ -1,0 +1,35 @@
+A propos de SGF
+
+Ce programme utilise XML ou SGF pour sauvergarder des parties. Comme
+il y a d'autres visualiseurs de ce format, vous pourrez utilisez vos fichiers 
+avec ceux-ci. Parmi ceux-ci citons, Smart Go, Many Faces of Go(Windows)
+et cgoban (Unix). Il y a d'autres formats alternatifs, comme le format 
+de GoScribe (fichier de nom *.go au lieu de *.sgf)
+
+XML est un standard de l'industrie informatique permettant de stocker
+des informations et son usage doit être priviligié dans le futur. Malgré 
+tout, Jago est le seul visualiseur à accepter le XML et définit donc de fait
+son propre standard. Vous pouvez obtenir plus d'informations sur ce 
+format sur la page web de Jago.
+
+Certains visualiseurs n'acceptent pas tous les "tags". Notamment les labels
+et les marques. Si vous utilisez les labels avec Jago, ils seront sauvegardés
+avec le "tag" L, qui ne fait pas partie du format SGF officiel. Pourtant, tous
+les programmes que je connais le comprennent,  alors qu'il ne reconnaissent
+pas le remplacement LB. C'est la même chose avec la commande de 
+marque.
+ 
+Pour être certain de sauver en SGF pur, vérifier l'entrée du menu 
+correspondante. Mais cela rendra invisible vos marques et labels 
+pour le programme MGT. Donc pour ce programme laisser l'entrée
+décochée.
+
+Le format de sauvegarde de commentaires et longs textes est un 
+autre souci. Avec SGF, chaque ligne forme un paragraphe. Les lignes 
+peuvent être séparées par un retour à la ligne(soft). Jago sépare les 
+paragraphes avec des lignes blanches comme le font d'autres visualiseurs. 
+WinMGT32 ignore les retours à la ligne (soft) et affiche les commentaires 
+sur une ligne avec défilement. Vous devriez utiliser le style SGF.
+
+Pour être certain que votre fichier s'affichera correctement dans MGT, 
+décocher l'entrée pur SGF dans le menu et n'utiliser pas les marques spéciales.

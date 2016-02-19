@@ -1,0 +1,68 @@
+Das Gobrett
+
+Das Menü
+
+Im Dateimenü können Sie das Brett komplett leeren und damit auch alle 
+Varianten. Sie können Spiele laden und speichern oder per E-Mail 
+versenden. Die Brettgröße können Sie nur bei lokalen Spielen verändern. 
+Normalerweise setzt der Server die Brettgröße fest.
+
+Das Menü "Setzen" erlaubt das Anbringen von Markierungen, das Setzen von 
+Steinen (zum Beispiel für Vorgaben) und das Passen. Gesetzte 
+Markierungen können gelöscht werden, allerdings nur alle auf einmal. 
+Nach dem Setzen sollten Sie auf "Weiterspielen" klicken um wieder Züge 
+eingeben zu können.
+
+Beim Spiel über das Internet wird der Zug nicht sofort gesetzt, sondern 
+der Server setzt den Zug. Ihre Eingabe wird lediglich an der Server 
+gesendet.
+
+Das Variantenmenü erlaubt die Erzeugung von leeren Varianten und Knoten. 
+Normalerweise benötigt man dieses Menü nicht, da Varianten als 
+Zugvarianten eingegeben werden (z.B. mit der rechten Maustaste).
+
+Das Menü "Spiel beenden" wird in der Hilfe über den Server erklärt.
+
+Das Brett
+
+Das Brett zeigt den aktuellen Spielknoten. Markierungen erscheinen in 
+den eingestellten Farben. Varianten erscheinen als grüne Punkte. Ein 
+kleines graues Rechteck markiert einen Zug, der noch nicht vom Server 
+bestätigt wurde.
+
+Unter dem Brett ist ein Label, das Informationen über die nächste 
+erwartete Aktion anzeigt. Außerdem wird ein Stern * angezeigt, wenn Sie 
+in der Hauptvariante sind, und zwei Sterne **, wenn Sie am Ende der 
+Hauptvariante sind. Daneben werden die Koordinaten angezeigt, über denen 
+sich die Maus befindet.
+
+Die Knöpfe
+
+Der Rücknahmeknopf arbeitet lokal anders als im Netz. Lokal entfernt er 
+den aktuellen Zug oder nach Rückfrage die gesamte Variante. Im Netz 
+frägt er den Server, ob der Zug zurückgenommen werden darf, d.h. er 
+sendet "undo".
+
+Die Pfeilknöpfe manövrieren im Spiel vor und zurück. Die Variantenknöpfe 
+manövrieren nach rechts und links in Nebenvarianten. Der Knopf V geht 
+zum ersten Zug der aktuellen Variante. ** geht zum Ende der 
+Hauptvariante.
+
+Kommentarfenster
+
+Dieses Fenster wird entweder als Kibitz-Fenster oder als 
+Kommentar-Fenster benutzt. Außerdem können sämtliche Server Ein- und 
+Ausgaben dorthin umgelenkt werden.
+
+Bei On-line-Spielen kann ein separates Sendefeld angezeigt werden, mit 
+dem man Kommandos direkt an der Server schicken kann. Außerdem kann die 
+Zeitanzeige in einem Feld unter dem Brett angezeigt werden (anstatt im 
+Fenstertitel).
+
+Otionen
+
+Normalerweise sollte man schöne Steine und das schöne Brett verwenden. 
+Sollte der Rechner deswegen zu langsam werden, läßt sich das einstellen. 
+Man kann auch die Größe der Steine verringern. Außerdem kann sowohl der 
+Font als auch die Farbe der Markierungen und des Boards verändert 
+werden.

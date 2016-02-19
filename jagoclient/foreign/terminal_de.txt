@@ -1,0 +1,22 @@
+Verbindungsfenster
+
+Die Internetserver sind Maschinen irgendwo im Netz, die auf Verbindungen 
+warten. Jeder Client verbindet sich mit dem Server auf einem bestimmten 
+Port. Die Konversation mit dem Serer ist im Prinzip für den Menschen 
+lesbar. Jago interpretiert aber die meisten Dinge selbst. Die 
+Kommunikation ist asynchron. Deswegen können Sie Kommandos senden, 
+während der Server sendet.
+
+Sie können Kommandos an den Server direkt in die Textzeile eingeben und 
+mit der Eingabetaste abschicken. Wenn Sie dabei die erste Stelle frei 
+lassen, wird das Kommando nicht in das Ausgabefenster geschrieben.
+
+Einige Eingaben werden gefiltert, da Sie einige Dinge hier nicht 
+eingeben sollen.
+
+Fast alle Serverausgaben werden gefiltert und direkt an die richtige 
+Stelle geschickt (z.B. an ein Spielbrett).
+
+Leider kann es sein, daß sie @ nicht direkt eingeben können. Dies ist 
+ein Bug in Java. In Windows können Sie stattdessen ALT-6-4 drücken.
+

@@ -1,0 +1,23 @@
+Channels
+
+This dialog opens, if you have joined a channel and a message was sent
+into the channel. The program supposes that you can open several
+channels. Each channel will give you a different window.
+
+To send a message, enter the message into the text field. Do not enter
+the semicolon.
+
+This form is common to IGS and NNGS. However, if you have joined several
+channels, you must enter the channel number.
+
+IGS:
+; \## message
+NNGS:
+; ## message
+
+It is a pitty, that these commands are different.
+
+You can send any other command in the text field.
+
+By the way, the text field has a history, which can be accessed with
+cursor up or down.

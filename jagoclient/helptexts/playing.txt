@@ -1,0 +1,56 @@
+Playing Games
+
+To make a move, you simply click on the board. If you are playing over 
+the internet, the move will be sent to the server, and appears on your 
+board, only when the server accepted the move.
+
+Setting the handicap is done in differnet ways for local and non-local
+games. In local games, you set the black stones and choose "White to
+play" to start the game. In internet games, you use the handicap
+command. Send
+
+handicap 6
+
+to the server for a six stone handicap. The server will set the handicap
+stones on your board.
+
+You can use the pass command in local and non-local games.
+
+During the game, you may create and inspect variations (see the section
+about variations). Use the ** button to get back to the current game
+position. You may even create a variation to the current board position
+and study it.
+
+Finishing the game is different for local and non-local games again.
+
+To finish a local game use the "Remove groups" menu item to remove 
+prisoners and then the "Score" item to get the final score. You get a 
+Chinese and a Japanese count. This program does not take care of Seki 
+territory, which should not be counted according to Japanese rules. In 
+most cases, Seki territory will balance anyway.
+
+To finish a non-local game, pass. If your opponent passes too, you 
+will get a message from the server (IGS requires three passes though).
+Choose "Remove groups" from the menu and remove all dead groups. These
+removals will be sent to the server. Please ignore any errors of the
+server about the removal of empty groups. Those groups may already
+have been removed by your partner. After removing all dead stones,
+choose "Local Score". This will score locally. If you are satisfied
+with the score, send the Done command to the server (there is a menu
+entry for this). The server will do its own scoring and will notify
+you of the result.
+
+In case, you want to undo removals, protocols behave differenty
+between IGS and NNGS. In any case, stones will appear immediately when
+you press undo. However, NNGS resets the position to the one before
+the last pass. So, you have to pass once more. IGS does not, but does
+notify the other player of your undo. This player should press undo
+too. That method should work. Alternatively the oterh player can clear
+all removals in the current board with the menu option.
+
+To finish a game with a go partner, refer to the section in the Partner
+Connection help.
+
+However, you may use the local group removal and scoring in any
+variation of an internet game. So you can check your score off-line,
+before ending the game. In this case, take care of the Komi!

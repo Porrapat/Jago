@@ -1,0 +1,32 @@
+Making Moves
+
+To make a move, click on the board. Note, that you can only add a move
+at the end of the game tree. To create a variation to a move, shift-
+click on the board. This will create a variation, with the current move
+replaced by a different move of the same color. You may also use the
+right mous button for this, but only if you click on an empty point,
+which does not have a variation marker.
+
+Look in the help about variations for more details about the game tree.
+
+To go to a variation, control-click on the green variation marker. Or us
+the right mouse button for this.
+
+Fixing a Game Tree
+
+To fix a false move, it is best to undo all moves up to the wrong one.
+Or go back to the wrong move and press undo. However, you can also
+shift-control-click with the mouse. In this case the current move will
+be placed to the new point (which must be empty). Note, that the game
+may become confused, if you do this in an incorrect way. Make sure, that
+the field in question is empty throughout the subsequent game tree.
+
+You can also insert an empty node into the game tree. This is done
+with the menu item "insert node". This is useful to enter a comment
+without confusion with the previous board marks.
+
+You may also set or remove black or white stones. Doing this may confuse 
+the game tree, however. In any case, you need to press shift-control
+while clicking. Furthermore, removal of stones in a position, which
+has already a move, is only allowed, if you switch off "pure SGF".
+Otherwise, a new variant will be created.

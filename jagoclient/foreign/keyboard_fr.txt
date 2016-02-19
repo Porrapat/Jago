@@ -1,0 +1,33 @@
+Raccourcis clavier
+
+Dans la fenêtre du plateau de jeu, il est possible d'utiliser le clavier
+pour se déplacer dans l'arbre des variantes. Il faut toutefois cliquer 
+sur le plateau (ou très près) pour lui donner le focus clavier. 
+
+Les commandes suivantes sont disponibles.
+
+Flèche vers le haut, vers le bas <-> pour se déplacer dans l'arbre du jeu
+Un page vers le haut, vers le bas <-> se déplacer plus vite dans l'arbre
+Flèche gauche, droite <-> changer de variante
+*, touche "home" <-> aller à la première variante
+/, fin <-> aller à la fin de la variante principale (comme **)
+v, V <-> aller au début de la variante
+backspace, suppr <-> défaire
+Inser <-> définir le nom du noeud
++ <-> aller au prochain noeud nommé
+- <-> aller au noeud nommé précédent
+
+De plus :
+
+f, F <-> cherche un commentaire
+m, M <-> définit une marque (marquage)
+c, C <-> marque en cercle
+t, T <-> marque en triangle
+s, S <-> marque en carré (_S_quare)
+r, R <-> marque en croix 
+l , L <-> marque lettre
+b <-> poser une pierre noire (_b_lack)
+w <-> poser une pierre blanche (_w_hite)
+B <-> Aux noirs de jouer
+W <-> Aux blancs de jouer
+p <-> Reprendre la partie

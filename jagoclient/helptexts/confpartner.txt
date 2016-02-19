@@ -1,0 +1,53 @@
+Configuring Partner Connections
+
+Partner Connections are connections to a friend over the internet. You
+get a chat window and, once you start a game, a board window. In
+contrast to the internet go servers, you get an accurate timing of your
+contemplation.
+
+Any partner will have to start a server, waiting for connections. The
+other partner uses the connect button to connect to this server. This
+procedure establishes the connection. You can set the port of the
+server, but should use 6970. Furthermore, you should assign a unique
+name to your server.
+
+To setup your partner connection, press the Edit or Add button in the
+lower half. You will have to enter
+
+- Your partners internet address.
+- Your partners port (should be 6970)
+- The status of the partner (see below for this)
+
+To configure your server, you should set your name with the
+corresponding menu entry to inform your partner about you. The suggest
+format is "Your Name (Strength)". Do not change the port from the
+default 6970. You can do so, but need an agreement with your partners,
+who want to connect with you.
+
+Your partner needs to start the server with the corresponding menu item.
+A started server waits for request on the specific port. To connect,
+press the Connect button in the lower half. Enjoy your chat and game!
+
+If you start a public server, Jago will publish this to all your partner
+connections, which have a state other than "silent". These servers will
+again tell your server start to other connected servers, unless they have
+a state "private". A "local" state means that the partners may publish
+your server start to connected servers, but these may not further
+publish it. This is the meaning of the partners state flag.
+
+Furthermore, any server which has received your server start will send
+back a list of open servers known to him. He will obey the rules of
+privacy mentioned above. You can view the list of open servers with the
+"open?" button.
+
+Using this feature, you can build up a smaller or larger network of open
+servers.
+
+The described communication is done by sending datagrams to the
+partners. For this purpose a port is used. This port is the partner's
+port plus 2 - so normally 6972.
+
+Stopping your server will yield "server is busy" messages for your
+partners. However, the thread, which takes note on open servers keeps
+running.
+

@@ -1,0 +1,15 @@
+Mailing Games
+
+You can send a game by email.
+
+If you choose the Mail menu entry, you will get a dialog, where you have
+to enter your email address, the destination address and the subject
+line for the mail. You also have to enter the SMTP (simple mail transfer
+protocol) host. This is the host, which handles your mail. If you are
+unsure about this, ask your system administrator. You may find the
+correct address also in the mail optinons of your internet browser.
+
+You may edit the message. You should enter comments before the game, and
+you should not start a line with a "(" to make sure your SGF viewer
+finds the start of the game.
+

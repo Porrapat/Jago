@@ -1,0 +1,57 @@
+Obs³uga partii
+
+Aby postawiæ kamieñ nale¿y po prostu klikn±æ na planszy. Je¿li grasz
+przez Internet ruch zostanie wys³any do serwera i pojawi siê u ciebie
+na ekranie dopiero gdy zostanie przez serwer przyjêty.
+
+Ustawianie handicapu ró¿ni siê w zale¿no¶ci od tego czy grasz przez
+sieæ czy te¿ utworzy³e¶ grê lokaln±. W grach lokalnych nale¿y ustawiæ
+czarne kamienie, a nastêpnie wybra? 'White to Play' by rozpocz±æ
+partiê. W grach internetowych u¿ywa siê komendy ‘handicap’:
+
+handicap 6
+
+Komenda to spowoduje pojawienie siê 6 kamieni handicapowych.
+
+Komendy ‘pass’ u¿ywaæ mo¿na zarówno w grach lokalnych jak i internetowych
+
+Podczas gry mo¿esz tworzyæ i przegl±daæ warianty (wiêcej znale¼æ mo¿na
+w odpowiednim pliku pomocy). Za pomoc± przycisku ‘**’ mo¿esz powróciæ
+do aktualnej pozycji. Istnieje równie¿ mo?liwo¶æ stworzenia wariantu
+dla aktualnej pozycji i jej analizy.
+
+Zakoñczenie rozgrywki w grach lokalnych polega na wybraniu z menu
+'Koniec Gry' pozycji menu 'Usuñ grupy' i usuniêciu martwych kamieni.
+Nastêpnie za pomoc± polecenia ‘score(Wynik)’ uzyskuje siê wynik –
+Wynik liczony jest zarówno wed³ug zasad chiñskich jak i japoñskich.
+Program nie bierze pod uwagê kamieni w seki, których zgodnie z
+zasadami japoñskimi siê nie liczy. W wiêkszo¶ci przypadków kamienie w
+seki nie bêd± wp³ywa³y na wynik.
+
+Rozgrywka w grach internetowych koñczy siê gdy obie strony spasuj±. W
+takiej sytuacji serwer prze¶le ci odpowiedni± wiadomo¶æ. Wybierz z
+menu ‘Usuñ grupy’ i usuñ martwe grupy. Informacja o twoim wyborze
+zostanie wys³ana na serwer. Wszelkie komunikaty b³êdów dotycz±ce
+usuwania nieistniej±cych grup nale¿y zignorowaæ – grupy te mog³y
+zostaæ usuniête przez twojego przeciwnika. Po usuniêciu martwych
+kamieni nale¿y wybraæ polecenie ‘local score (Wynik Lokalny)’, które
+obliczy lokalny wynik – je¶li uzyskany w ten sposób wynik
+satysfakcjonuje ciê wybierz ‘done(gotowe)’ (komend? t? równie? mo?na
+znale?? w menu). Serwer dokona w?asnych oblicze? wyniku i poinformuje
+ci? o wyniku.
+
+W przypadku gdyby? chcia? cofn?? usuni?cie jakiej? grupy mo?esz
+spotka? si? z dwoma ró?nymi zachowaniami w zale?no?ci od protoko?u.
+Niezale?nie od serwera kamienie pojawi? si? natychmiast po wybraniu
+polecenia ‘undo’. Na NNGS pozycja powraca do sytuacji przed ostatnim
+pass, tak wi?c musisz jeszcze raz spasowa?. Na IGS twoje polecenie
+wys?ane jest do serwera i akceptowane dopiero gdy drugi gracz równie?
+wybierze ‘undo’. Innym sposobem jest r?czne cofni?cie wszystkich
+usuni?? za pomoc? opcji menu.
+
+Informacje na temat zako?czenia gry w trakcie po³±czeñ towarzyskich
+znale¼æ mo¿na w pliku ‘Po³±czenie towarzyskie’.
+
+Ponadto w trakcie gry internetowej mo¿esz usuwaæ kamienie tak jak w
+grze lokalnej. Daje ci to mo¿liwo¶æ obliczenia wyniku przed koñcem
+gry. W takim przypadku pamiêtaæ jednak nale¿y o doliczeniu komi!

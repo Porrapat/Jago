@@ -1,0 +1,25 @@
+Canaux
+
+Cette boite de dialogue s'ouvre si vous avez rejoint un canal et qu'un
+message vous a été envoyé dans ce canal. Le programme suppose 
+que vous pouvez ouvrir plusieurs canaux. Chaque canal ouvre une 
+nouvelle fenêtre.
+
+Pour envoyer un message, taper le dans le champ. Ne taper pas 
+de point-virgule.
+
+Ce format est commun à IGS et NNGS. Toutefois, si vous avez rejoint
+plusieurs canaux, vous devez entrez son numéro.
+
+IGS:
+; \## message
+NNGS:
+; ## message
+
+C'est bien dommage que ces commandes ne soient pas les mêmes. 
+
+Vous pouvez envoyer n'importe quelle autre commande en les tapant
+dans la zone de saisie.
+
+A propos, cette zone de saisie a un historique, accessible avec la touche 
+du haut (flèche vers le haut) ou du bas (flèche vers le bas).

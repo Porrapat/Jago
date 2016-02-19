@@ -1,0 +1,19 @@
+Sound
+
+Sound wird über die Audio-Schnittstelle von Java implementiert. Dies ist 
+nicht nur schlecht dokumentiert, sondern wird auch nicht offiziell 
+unterstützt. In späteren Java-Versionen wird es weit bessere 
+Schnittstellen geben. Sie können sich allerdings auch auf Beeps 
+beschränken.
+
+Töne werden erzeugt
+
+- wenn ein Zug gesetzt wird.
+- wenn eine Nachricht eintrifft.
+
+Im ersten Fall wird die Meldung deutlicher, wenn Ihr Gegner einen Zug 
+macht, während Sie eine Variante studieren.
+
+Sie können außerdem eine Warnung einschalten, die anzeigt, daß Ihre Zeit 
+knapp wird.
+

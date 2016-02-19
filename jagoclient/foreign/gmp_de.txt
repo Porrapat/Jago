@@ -1,0 +1,14 @@
+Gegen ein Program spielen
+
+Falls Sie ein Go-spielendes Programm haben, das das Go Modem Protokoll
+unterstützt, so können Sie versuchen, Jago als Spielbrett einzusetzen.
+
+Dieses Programm bekommen Sie über
+
+http://www.gnu.org/software/gnugo/
+
+oder von unserem Server. Näheres finden Sie in der Dokumentation.
+
+Im Einstellungsdialog zum Spielen müssen Sie den Pfad zum Programm mit
+eventuell benötigten Zusatzparametern eingeben. Falls der Pfad
+Leerzeichen enthält, so muss er mit " eingeschlossen werden!

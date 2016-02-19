@@ -1,0 +1,21 @@
+Po³±czenie towarzyskie.
+
+Okno to jest twoim po³±czeniem z partnerem do Go. Wpisuj±c tekst do
+okna tekstowego pod terminalem mo¿esz z nim bez problemu pogadaæ.
+
+Aby zacz±æ grê, u¿yj przycisku Game i wprowad¼ odpowiednie parametry,
+po czym u¿yj przycisku Request. Je¶li twój przeciwnik przyjmie
+wyzwanie pojawi siê plansza i mo¿esz zabraæ siê do gry.
+
+Grê prowadzi siê podobnie jak na serwerach Go. Podawany czas bli¿szy
+jest jednak rzeczywisto¶ci - mierzony jest bowiem tylko wtedy gdy
+my¶lisz. Ponadto musisz sam liczyæ wynik - tak wiêc po zakoñczeniu gry
+i usuniêciu jeñców, wynik oblicza siê za pomoc± polecenia w menu.
+
+Zwróæ uwagê ¿e koniec gry musi zostaæ potwierdzony przez twojego
+partnera.
+
+Od swojego przeciwnika mo¿esz za¿±daæ cofniêcia ruchu. Cofniêty
+zostanie zarówno ruch przeciwnika jak i twój, a do czas przeciwnika
+automatycznie wyd³u¿a siê o 30 sekund. Przeciwnik mo¿e odrzuciæ
+pro¶bê.

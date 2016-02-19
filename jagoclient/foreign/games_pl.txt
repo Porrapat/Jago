@@ -1,0 +1,8 @@
+
+Jest to lista gier posortowana wed³ug si³y pierwszego gracza.
+Mo¿esz wybraæ grê i rozpocz±æ jej obserwacjê. Mo¿esz tak¿e
+uzyskaæ krótk± informacjê o tej grze w postaci stanu gry w danej 
+chwili.  
+
+Otworzenie podgladu gry pozwala ci na rzucenie na ni± okiem
+bez w³±czania obserwacji.

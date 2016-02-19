@@ -1,0 +1,22 @@
+Zuschauen versus Spielen
+
+Leider ist das Protokoll, das der Server versteht, nicht sehr gut 
+organisiert. Aus diesem Grunde ist es unter Umständen schwer zwischen 
+Spielen zu unterscheiden, bei denen es Sinn macht Züge an den Server zu 
+senden, und solchen, bei denen dies nicht erwünscht ist.
+
+Ich habe daher bewußt die Möglichkeit geschaffen, zwischen beiden 
+umzuschalten.
+
+Normalerweise wird ein Brett zum Spielen nur geöffnet, wenn der Server 
+plötzlich von sich aus ein Brett öffnet. Dies geschieht zum Beispiel, 
+wenn Sie ein Match annehmen. Wenn Sie ein Spiel zum Zuschauen auswählen, 
+so weiß Jago, daß es sich um ein solches Brett handelt. Wenn Sie ein 
+solches Brett schließen, sendet Jago automatisch ein Kommando zum 
+Server, das dies meldet. Damit schickt der Server keine Züge mehr. (Wenn 
+doch, so öffnet sich ein Brett, das sie einfach schließen können.)
+
+Falls Sie versehentlich ein Brett schließen an dem Sie spielen, so 
+können Sie "moves 23" eingeben, wobei 23 die Nummer des Spieles ist. Der 
+Server sendet dann die Züge des Spieles erneut, und Jago sollte ein 
+Fenster für das Spiel öffnen.

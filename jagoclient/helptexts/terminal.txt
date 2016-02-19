@@ -1,0 +1,40 @@
+Terminal Window
+
+The internet Go servers are located on some remote machine. Each client
+or telnet connection talks to this server via an internet port. The
+conversation is asynchronous. So you can send commands while the server
+is sending data.
+
+To send output to the server, type into the text field and press return.
+If you precede your command with a blank, the output will not be echoed
+to the terminal window (the blank will be removed).
+
+In this program, received output is printed to the terminal window after
+it has been filtered. You will not see moves of your opponent in this
+window. Rather these moves are sent directly to your game board. Some
+messages even display in a separate window to catch your attention.
+
+On the other hand, not all input goes to the server unfiltered. The
+program does control the input. So if you get the status of a game with
+the status command, there will be no board to display this information.
+You should use the buttons in the terminal window or in the games window
+to do this. However, a playing board opens automatically, if moves from
+an unknown game are received, assuming this is a new game. The IGS
+protocol is rather weird and unorganized, so some assumptions have to be
+made.
+
+If you are playing a game, moves will be sent to the server from the
+game board directly. You can also talk to your opponent or kibitz from
+the game board. However, this can also be done by typing into the input
+line of the terminal window.
+
+You can save all information in the output window to a file with the
+corresponding menu entry.
+
+Finally, closing this window will abort your IGS connection and close
+all playing boards.
+
+On Windows 95, you may not be able to enter the @ sign directly,
+e.g. for registration. Hold down the ALT key, press 64 and release
+it instead.
+

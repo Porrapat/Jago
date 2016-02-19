@@ -1,0 +1,22 @@
+D?wi?k
+
+Poniewa? lubi? d?wi?k do??czy?em do programu jego obs?ug?. Aby z niego
+korzysta? potrzebna jest karta d?wi?kowa i system obs?uguj?cy
+multimedia. W innym przypadku obs?ugiwane b?d? tylko pikni?cia. Przy
+w??czonym d?wi?ku sygnalizowane s?: postawienie kamienia przez
+przeciwnika gdy analizujesz wariant otrzymanie wiadomo?ci gdy
+wy??czy?e? okno dialogowe wiadomo?ci wys?anie niepotwierdzonego ruchu
+na serwer
+
+Wybieraj?c opcj? ‘Simple’ wy??cza si? z?o?one sygna?y d?wi?kowe. W
+przypadku wyboru ‘Beeps’ komputer poinformuje ci? krótkim pikni?ciem
+gdy przeciwnik wykona? ruch, a ty nie zauwa?y?e? tego jeste? bowiem w
+trakcie analizy wariantu dosta?e? wiadomo?? przy wy??czonym oknie
+dialogowym wiadomo?ci
+
+W przypadku u?ywania d?wi?ków w systemie Windows zdarza?y si?
+niestabilno?ci Javy. Sytuacja taka nie pojawia?a si? nigdy przy
+w??czonej opcji ‘Beep”.
+
+Ponadto mo?esz w??czy? licznik ostrzegawczy, który w chwili gdy twój
+czas dobiega ko?ca b?dzie informowa? ci? o tym co 10 sekund.

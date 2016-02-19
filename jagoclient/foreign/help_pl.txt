@@ -1,0 +1,8 @@
+O pomocy 
+
+System Pomocy sk³ada siê z grupy plików o rozsze¿eniu txt. Mo¿na je
+dowolnie edytowaæ.  
+
+Pliki pomocy w jezyku angielskim s± spakowane w parchiwum jago.jar.
+jako pliki domy¶lne. Aby to zmieniæ rozpakuj archiwum, podmieñ pliki i
+spakuj je ponownie wraz z plikami klas i zasobów.  

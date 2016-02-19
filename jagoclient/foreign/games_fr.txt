@@ -1,0 +1,5 @@
+C'est la liste des parties classées en fonction du niveau du 
+premier joueur. Vous pouvez selectionner une partie et l'observer.
+Vous pouvez aussi obtenir une image statique("état") de la partie
+en cours. Choisir une partie signifie que vous avez un historique 
+de la partie en cours mais sans pouvoir l'observer.

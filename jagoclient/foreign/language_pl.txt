@@ -1,0 +1,7 @@
+Wybór jêzyka
+
+W tym oknie dokonujesz wyboru jêzyka - mo¿e on ró¿niæ siê od
+standardowego jêzyka u¿ywanego na twoim komputerze. Aby u¿ywaæ
+wybranego jêzyka potrzebujesz plików koniecznych do jego obs³ugi - w
+przeciwnym wypadku program samoczynnie powróci do jêzyka angielskiego.
+Potrzebne pliki odnale¼æ mo¿na na stronie Jago.

@@ -1,0 +1,24 @@
+Aperçu
+
+Si vous avez déjà jouer au go sur n'importe quel serveur internet 
+de go, vous n'aurez acune difficulté pour vous adapter à ce client-ci. 
+configurer juste votre connexion et connectez vous. Vous pouvez 
+utiliser la procédure automatique de login ou entrez votre nom 
+et mot de passe vous même. 
+
+Si vous êtes novice sur les serveurs internet de go, lisez la 
+documentation HTML fournit avec ce logiciel, ou reportez-vous 
+aux nombreux fichiers d'aide.
+
+Jago vous permet de jouer une partie avec un ami sur internet.
+Vous avez le bénéfice d'un décompte du temps précis et d'une 
+atmosphère privé. Voir le fichier d'aide sur les parties avec 
+un partenaire. Cette fonctionnalité vous offre la possibilité de créer
+de petit réseau de serveurs ouverts.
+
+Jago est fait pour être utiliser comme un éditeur de fichier SGF de
+partie de go. Il permet de créer des variantes, commenter, 
+nommer des noeuds, des intersections du plateau, des marques 
+et bien plus encore. Il y a même la possibilité de chercher du 
+texte dans les commentaires.
+

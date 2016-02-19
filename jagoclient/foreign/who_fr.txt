@@ -1,0 +1,20 @@
+La fenêtre affiche la liste des joueurs. Si vous choisissez une fourchette 
+de niveau, seuls seront afficher les joueurs dont le niveau est dans la 
+fourchette. Une fourchette est de la forme 7k-2d. Pour de plus amples 
+informations, taper "help who" sur le serveur. La sélection est faite 
+par le serveur.
+
+Il y a aussi des sélections locales. Vous pouvez omettre les joueurs avec 
+un état (Q) silencieux ou (X) sage. Vous pouvez limiter les joueurs qui 
+regardent une partie (!).
+
+Les joueurs peuvent être marqués en cliquant sur leurs noms. Vous 
+pouvez ensuite leur parler, jouer contre eux, ou obtenir leurs statistiques, 
+ou faire une de ces trois choses (par défaut suggestion, resultat ou stocker).
+Cliquez avec le bouton de la souris et choisissez dans la liste des options 
+disponibles. 
+
+Vous pouvez modifier 3 des boutons avec une entrée du menu. Dans 
+la boîte de dialogue, définissez le texte du bouton et le texte à envoyer
+au serveur. Les %% seront remplacés par le joueur sélectionné.
+

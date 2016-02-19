@@ -1,0 +1,1 @@
+Sugli aiutiGli aiuti consistono in una serie di file con estensione txt. Puoi modificare questi file come preferisci.Il file di aiuto in italiano sono contenuti nell'archivio jago.jar esono gli aiuti di default. Per modificarli devi espandere l'archivio,modificare i file e comprimerli di nuovo in jar includendo tutti ifile class e resources.

@@ -1,0 +1,21 @@
+Ustawianie opcji, które mog± poprawiæ zachowanie Jago
+
+
+"Pakuj dialogi" spakuje czê¶æ okien dialogowych zamiast zapamiêtywania
+ich pozycji.
+
+"Ustaw w³asn± ikonê" zmiana ikony okna g³ównego.
+
+"AWT Text/" pozwala na korzystanie z normalnego obszaru tekstu do
+wyswietlania list graczy i gier zamiast Jago. Jesli nie jestes
+zadowolony ze sposobu wy¶wietlania w oknie Terminala, u¿yj opcji AWT
+Text.Mo¿e ona dzia³ac szybciej lub wolniej w zale¿no¶ci od Twojego
+systemu. Ponadto mo¿esz u¿ywaæ tylko 32KB max. "AWT List" odnosi siê
+zarówno do gier jak i info o graczach.
+
+"Potwierdzenia" prze³±cza tryb potwierdzenia polecenia zamkniêcia okna
+planszy po³±czenia lub zamkniêcia Jago.
+
+"Linux" obs³uguje niektóre specjalne cechy Linux JVM.Przede wszystkim,
+okna zamykaj± siê szybciej.Po drugie u¿ywane usprawniona jest obs³uga
+przycisków navigacji, które dzia³aj± szybciej ni¿ pod Windows.

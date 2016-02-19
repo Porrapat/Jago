@@ -1,0 +1,37 @@
+Observer ou jouer
+
+Vous devez savoir qu'à cause d'un défaut dans le protocole avec le 
+serveur, il peut y avoir des problèmes pour determiner la bonne taille
+du plateau du jeu. 
+
+Premièrement, si vous choisissez d'observer une partie, Jago ouvrira
+une fenêtre avec un plateau du jeu à observer. Il lancera ensuite une 
+commande "status" , principalement pour connaître la taille du plateau. 
+Après cela, il commencera à observer la partie. Alors le serveur 
+enverra un coup pour ce numéro de partie; il sera rejetter par Jago qui 
+veut d'abord tous les coups précédents. Et donc la commande "moves" 
+sera exécuter et la position affichée. 
+
+Si vous fermez la fenêtre d'une partie que vous observez, la commande 
+"unobserve" est envoyée (au serveur). 
+
+Deuxièmement, si vous commencez à jouer une partie, le numéro de 
+partie n'est pas connu et Jago récupère la première partie inconnue 
+pour ensuite ouvrir un plateau de jeu. Après que la commande "status" 
+a été exécuté (voir plus haut), Jago chargera l'état du plateau, même
+si la partie a été ajournée auparavant. Fermer la fenêtre d'un plateau
+n'envoiera rien (au serveur).
+
+Cete procédure soulève plusieurs problèmes. 
+
+(a) Vous fermez un plateau de jeu accidentellement. Dans ce cas, 
+ajourner et recharger le jeu.
+
+(b) Vous obtenez un plateau pour jouer, alors que vous vouliez un plateau
+pour observer. Cela peut arriver si le serveur commence ou continue 
+d'envoyer des coups (délai du reseau ou autre raison). Cela ne doit 
+pas vous inquiéter, car vous pouvez déselectionner "jouer", et les 
+coups ne seront plus envoyer.
+
+(c) vous pouvez même jouer sur un plateau d'observation, en 
+selectionnant "jouer". 

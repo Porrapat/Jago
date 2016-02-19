@@ -1,0 +1,1 @@
+In questa finestra potete inserire il nome che utilizzerete per leconnessioni con i partner.Il formato normale e': "nome (grado)". Il nome puo' contenere spazi bianchi.

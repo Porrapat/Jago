@@ -1,0 +1,24 @@
+Using Windows
+
+Many details depend on your operation system.
+
+JAGO keeps the sizes and positions of the windows in a file named 
+GO.CFG. It tries to write the file into the active directory. So you 
+need write access to this directory. In multi-user environments, you 
+should set up a local JAGO directory for each user with an 
+installation script. Then a script can start JAGO from this directory. 
+You pass the JAGO directory as an argument with parameter -home.
+
+Most systems allow cut and paste from text fields. In Windows, use 
+CNTRL-C to copy text from anywhere to the clipboard and CONTRL-V to 
+paste it into a JAGO input field. Or use the right mouse button to get 
+a menu for copying. JAGO is using a replacement for the text areas, 
+unless you have chosen the normal text areas in the advanced options 
+menu. This allows colored output and has no size limit. the 
+replacement can copy to the clipboard.
+
+Dialog windows can be closed with the Escape key, if they have the
+keyboard focus.
+
+The text input fields, which send commands to the server, have a
+history. You can recall old commands with the Cursor Up key.

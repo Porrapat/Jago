@@ -1,0 +1,39 @@
+Formaty partii
+
+W programie u?ywa si? formatu XML lub SGF. Istniej? inne programy
+obs?uguj?ce te rozszerzenia tak wi?c mo?esz w nich u?ywa? swoich
+plików. Jako przyk?ad mo?e s?u?y? Smart Go, Many Faces of Go (WINDOWS)
+i cgoban (UNIX). Istniej? te? inne formaty, chocia?by format Goscribe
+(rozszerzenie .go)
+
+XML jest standardowym rozszerzeniem u?ywanym do przechowywania danych
+i miar? up?ywu czasu powinien stawa? si? coraz powszechniejszy. W tej
+chwili Jago jest jednak jedynym programem obs?uguj?cym ten format w
+zwi?zku z czym ustanawia w?asne standardy. Wi?cej informacji na ten
+temat znajduje si? na stronie Jago.
+
+Niektóre przegl?darki SGF nie obs?uguj? wszystkich tagów, dotyczy to
+zw?aszcza etykiet i znaczników. Je?li wi?c u?ywasz etykiet Jago
+zapisywane s? one w pliku SGF z tagiem L, który nie jest oficjalnie
+cz??ci? formatu SGF. Wi?kszo?? znanych mi programów nie ma z nim
+problemów, cho? niektóre nie odczytuj? LB. Podobne problemy napotka?
+mo?na w przypadku znaczników.
+
+Aby upewni? si? ?e u?ywasz standardowego formatu SGF sprawd?
+ustawienia w menu ‘pure SGF’. W??czenie tej opcji sprawi ?e MGT nie
+odczyta twoich etykiet i znaczników tak wi?c je?li u?ywasz MGT
+pozostaw format bez zmian.
+
+Kolejn? kwesti? jest format zapisu komentarza i innych d?u?szych
+tekstów. W SGF ka?da linia traktowana jest jako akapit. Linie mo?na
+?ama? nie ko?cz?c akapitu. W Jago paragrafy oddzielone s? pustymi
+liniami, podobnie rozwi?zanie przyj?to w innych przegl?darkach.
+WinMGT32 np. pomija ?amania nie ko?cz?ce akapitu i wy?wietla zwini?te
+linie komentarza. Proponujemy jednak u?ywa? standardu SGF.
+
+Aby upewni? si? ?e plik b?dzie dobrze odczytany przez MGT nie wybieraj
+opcji ‘pure SGF’ i pomijaj specjalne znaczniki.
+
+
+
+

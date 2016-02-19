@@ -1,0 +1,19 @@
+Le son
+
+Comme je l'aime bien, j'ai implémenté des sons. Vous aurez besoin
+d'avoir une carte son et d'un système d'exploitation capable de multimédia,
+ou sinon vous serez limiter aux bips. Si vous cochez l'option son, vous en aurez:
+
+- quand votre adversaire pose un pierre, quand vous parcourer une variante
+- quand vous aurez un message, si vous avez désactivé les messages.
+- quand vous avez envoyé un coup sur le serveur qui n'est pas encore confirmé
+
+Vous pouvez changer les sons à basique pour avoir des sons plus simples.
+Si vous le mettez à bip, vous aurez des bips. 
+
+J'ai fait l'expérience de blocage de Java, quand le son est activé sous Windows. 
+Cela ne concerne pas les bips. 
+
+Vous pouvez utiliser une option pour vous prévenir s'il ne vous reste plus 
+beacoup de temps. 
+

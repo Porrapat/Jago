@@ -1,0 +1,38 @@
+Wykonywanie ruchów
+
+Aby wykonaæ ruch nale¿y klikn±æ na planszê. Zwróæ uwagê, ¿e w ten
+sposób mo¿na dodaæ ruch tylko na koniec drzewa ruchów. Aby wiêc
+wstawiæ ruch bêd±cy wariantem nale¿y u¿ywaæ SHIFT+klik. Po takim
+klikniêciu powstanie wariant w którym bie¿±cy ruch zostanie zast±piony
+innym ruchem tego samego gracza. W tym samym celu u¿ywaæ mo¿na prawego
+przycisku myszy, pod warunkiem jednak, ¿e kliknie siê na puste pole
+planszy, na którym nie ma jeszcze ¿adnego znacznika wariantu.
+
+Wiêcej szczegó³ów na temat drzewa posuniêæ znale¼æ mo¿na w pliku
+pomocy na temat wariantów.
+
+Aby przej¶æ do wariantu u¿yj na zielonym znaczniku wariantu lewego
+przycisku myszy + CTRL lub samego prawego przycisku myszy.
+
+Jak naprawiæ drzewo posuniêæ.
+
+Aby poprawiæ b³êdny ruch najlepiej cofn±æ (undo) wszystkie ruchy a¿ do
+miejsca w którym chcemy dokonaæ poprawki lub te¿ przej¶æ do tego ruchu
+i u¿yæ komendy undo. Mo¿na te¿ u¿yæ kombinacji lewy przycisk myszy +
+CTRL + SHIFT. W ostatnim przypadku bie¿±cy ruch zostanie przeniesiony
+na nowe pole (pole to musi byæ puste). Pamiêtaj ¿e je¶li wykonasz
+poprawki nieprawid³owo zapis gry mo¿e staæ siê nieczytelny - dlatego
+te¿ upewnij siê ¿e pole na które przestawiasz ruch nie zosta³o zajête
+w dalszym przebiegu partii.
+
+Istnieje tez mo¿liwo¶æ wstawiania pustego wêz³a do drzewa posuniêæ.
+Dokonuje siê tego za pomoc± polecenia 'insert node'. Opcja ta
+przydatna jest do wstawiania komentarza, który nie dotyczy
+bezpo¶rednio ruchu.
+
+Mo¿esz te¿ dostawiaæ lub usuwaæ kamienie, choæ mo¿e siê zdarzyæ ¿e w
+ten sposób drzewo posuniêæ stanie siê niejasne. W tym celu u¿ywa siê
+kombinacji klik + CTRL + SHIFT. Usuwanie kamieni z pozycji w której
+wykonany zosta³ ruch mo¿liwe jest tylko gdy wy³±czy siê opcjê 'pure
+SGF' - w przeciwnym wypadku dzia³anie takie powoduje stworzenie nowego
+wariantu.

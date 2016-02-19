@@ -1,0 +1,16 @@
+Kodierung Setzen
+
+In diesem Dialog können Sie die Kodierung für das Schreiben und Lesen 
+von SGF Dateien setzen. Falls Sie sich nicht sicher sind, was hier 
+einzugeben ist, so geben Sie bitte eine leere Zeichenkette ein. Jago 
+nimmt dann die normale lokale Kodierung (8859_1 in Deutschland unter
+Windows).
+
+Sie können durch das explizite Setzen der Kodierung Dateien von anderen 
+Ländern oder Computersystemen korrekt einlesen. Z.B. liest die Kodierung 
+Cp850 DOS-Dateien richtig ein. Es werden dann insbesondere die Umlaute 
+korrekt übersetzt. Sie sollten im Normalfall allerdings die Kodierung 
+8859_1 verwenden, oder besser eine leere Zeichenkette verwenden.
+
+Die Kodierung für die Kommunikation mit dem Server können Sie in den 
+Einstellungen für den Server explizit angeben.

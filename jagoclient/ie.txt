@@ -1,0 +1,24 @@
+Jago, Version 4.53
+Copyright R. Grothmann
+
+Jago is a client for the internet go servers,
+a program for point to point go playing,
+and an editor for the SGF go format. 
+
+This version will install Jago on your computer
+using InstallAnywhere Now. It will create an
+icon to launch the program and an icon to
+start the HTML documentation.
+
+The program will run in English, German, Russian,
+Italian, Korean or Japanese. For Japanese EUC 
+codepages set language to "euc" in Jago.
+
+Jago is GPL licensed. For details see the
+Jago homepage via
+
+http://www.rene-grothmann.de/jago
+
+Have fun!
+
+R. Grothmann

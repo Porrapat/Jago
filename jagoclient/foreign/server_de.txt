@@ -1,0 +1,32 @@
+Hilfe am Server
+
+Ich kann hier keine vollständige Einführung in die Sprache des Servers 
+geben. Die meisten Kommandos werden Sie ohnehin nicht direkt eingeben 
+müssen.
+
+Sie können einfach per Knopfdruck alle Spieler auflisten oder alle 
+aktuell gespielten Spiele. Danach können Sie einen Spieler auswählen und 
+mit ihm reden. Oder Sie können ein Spiel anschauen, indem Sie es 
+auswählen. Dazu wählen Sie "Zuschauen". "Status" ist schneller, gibt 
+aber nicht die ganze Spiehistorie wieder.
+
+Über die Kommandozeile können Sie mit einem Spieler sprechen, indem Sie
+
+talk name Hi, how are you? Want a game?
+
+eingeben. Nach der ersten Kontaktaufnahme können Sie dies abkürzen:
+
+. Hi, how are you? Want a game?
+
+Wenn jemand Sie anspricht, so öffnet sich ein Fenster. Sie können dort 
+direkt antworten.
+
+Falls Sie ein Spiel anfangen wollen, so geht dies mit dem Kommando
+
+match name b 19 10 5
+
+b ist hier die Farbe (black) und 19 die Größe des Brettes. Sie habe 10 
+Minuten für das Spiel und 5 Minuten Byoyomi (25 Züge).
+
+Falls Sie jemand zu einem Spiel herausfordert, so erscheint ein Dialog, 
+mit dem Sie direkt akzeptieren oder ablehnen können.

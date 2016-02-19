@@ -1,0 +1,18 @@
+Okno to wyœwietla  listê graczy. Jeœli podasz zakres si³y wyœwietleni
+zostan¹ tylko gracze o zadanej sile. Zasiêg podaje siê w formacie
+7k-2d np. Aby uzyskaæ wiêcej informacji na ten temat po pod³¹czeniu do
+serwera wpisz 'help who'. Wyboru tego dokonuje serwer. Istnieje te¿
+mo¿liwoœæ dokonania innej selekcji - mo¿na bowiem pomin¹æ graczy z
+w³¹czonymi opcjami Q - cicho lub X - nie chce graæ. Mo¿esz równie¿
+wyœwietliæ tylko graczy oczekuj¹cych na wyzwanie (!).
+
+Graczy zaznacza siê klikaj¹c na ich imiê. Mo¿esz z nimi rozmawiaæ,
+graæ, zapoznaæ siê z ich dotychczasowymi wynikami. Istnieje tak¿e
+dostêp do trzech innych definiowalnych dzia³añ - standardowo to
+'zasugeruj', 'wyniki', 'zachowane'. Za pomoc¹ klikniêcia prawym
+przyciskiem myszy mo¿na dokonaæ wyboru spoœród dostêpnych opcji.
+
+Te trzy przyciski mo¿na edytowaæ za pomoc¹ menu - w odpowiednim
+okienku dialogowym wybiera siê styl przycisku i tekst który bêdzie
+wysy³a³ na serwer. £añcuch %% zast¹piony bêdzie imieniem wybranego
+gracza.

@@ -1,0 +1,21 @@
+Die Go Formate
+
+Dieses Programm benutzt das Smart Go Format (SGF) oder XML (eXtended
+Markup Language), um Spiele abzuspeichern. XML wird im Moment nur von
+Jago unterstützt. Es handelt sich dabei um den Standard des
+WWW-Konsortiums zur Formatierung von Daten. Mehr Informationen über
+XML finden Sie auf der Homepage von Jago.
+
+Viele Go-Editoren verstehen das SGF Format. Manche sind allerdings
+eingeschränkt, was die Eingabe von Varianten angeht. Es gibt auch
+andere Formate, wie etwa das von Goscribe. Allerdings existiert ein
+Konverter zwischen diesen Formaten.
+
+Einige Editoren unterstützen nicht denselben Sprachumfang wie Jago. 
+Umgekehrt unterstützen die meisten Dinge, die es im offiziellen SGF 
+nicht gibt (L und M). Sie können einstellen, ob Jago diese Tags benutzt 
+oder nicht.
+
+Außerdem wird das Speichern von längeren Kommentartexten unterschiedlich 
+gehandhabt. Jago kann hier den richtigen SGF Stil verwenden oder einen 
+Stil, der von den meisten Editoren verstanden wird.

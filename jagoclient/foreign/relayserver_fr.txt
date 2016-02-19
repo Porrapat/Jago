@@ -1,0 +1,7 @@
+Cela vous laisse définir un serveur relais. Vous ne devez utiliser ceci 
+que si vous utilisez Jago à partir d'un butineur. Dans ce cas, votre 
+serveur (celui qui fait tourner l'applet Jago), lance un relais démon. 
+Normallement, cela est configuré par votre administrateur. 
+
+Toutefois, le système du relais peut être remplacer en relâchant
+la sécurité des applets Java. C'est possible avec Internet Explorer.

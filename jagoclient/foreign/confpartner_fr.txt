@@ -1,0 +1,54 @@
+Configurer une connexion avec un partenaire
+
+Les connexions avec un partenaire sont des connexions à un ami par
+Internet. Vous obtenez une fenêtre de discussion (chat) et, une fois
+la partie lancée, un plateau de jeu. Au contraire des serveurs de go
+sur Internet, vous avez une prise en compte précise du temps écoulé.
+ 
+Un des 2 joueurs doit lancer un serveur, et attendre la connexion de l'autre. 
+L'autre joueur utilise le bouton "Connexion avec un partenaire". 
+Cette procédure établit la connexion. Vous pouvez changer le port du 
+serveur, mais devriez utiliser 6970. De plus, vous pouvez  
+donner un nom unique à votre serveur. 
+
+Pour configurer la connexion à votre partenaire, cliquez le bouton 
+"Modifer" ou "Ajouter" dans la partie basse. Vous devez renseigner 
+les champs : 
+
+- le serveur : l'adresse internet de votre partenaire
+- le port utilisé (de préférence 6970)
+- le statut (état) du partenaire (voir plus bas)
+
+Pour configurer le serveur, vous devez entrez votre nom grâce à 
+l'entrée correspondante dans le menu pour informer votre partenaire
+sur vous. Le format suggéré est "votre nom (Niveau)". Ne pas changer 
+le port par défaut 6970. Vous pouvez le changer, mais devez vous mettre 
+d'accord avec votre partenaire qui veut se connecter avec vous.
+
+Votre partenaire doit lancer le serveur grâce à l'entrée de menu 
+correspondante.  Un serveur lancé attend des requêtes sur le port 
+spécifié. Pour vous connecter, cliquez le bouton "Connexion" dans la 
+partie basse de l'interface. Bonne discussion et bonne partie ! 
+
+Si vous lancez un serveur public, Jago le signifiera à tous vos partenaires,
+qui ont un état autre que "silencieux". Ces serveurs transmettront 
+le lancement de votre serveur aux autres serveurs connectés, à moins 
+qu'ils n'aient l'état "privé". L'état "local" signifie que les partenaires 
+peuvent publier le lancement de votre serveur aux serveurs connectés, 
+mais ceux-ci ne pourront pas le publier. C'est la signification de "l'état"
+d'un partenaire.
+
+De plus, n'importe quel serveur ayant reçu le lancement de votre serveur
+vous renvoiera une liste des serveurs connus de lui. Il respectera les règles
+d"état" mentionnées plus haut. Vous pouvez voir la liste des serveurs lancés
+avec le bouton "Ouvrir ?". 
+
+De cette manière, vous pouvez bâtir un réseau de serveurs ouverts. 
+
+Le procedé de communication décrit se fait en envoyant des datagrammes
+au partenaire. Un port est utilisé pour cela. C'est le port du partenaire plus 2, 
+donc normallement 6972.
+
+Arrêter votre serveur provoquera un message du type "Connexion perdue"
+chez vos partenaires. Toutefois, la "thread" qui prend notes des serveurs 
+ouverts continue de s'exécuter. 

@@ -1,0 +1,6 @@
+Setting your language
+
+In this dialog, you can choose a language, which might be different from 
+your local language. You need the local resources for this language, or 
+else the program defaults to english. To get some local resources, visit 
+the Jago home page.

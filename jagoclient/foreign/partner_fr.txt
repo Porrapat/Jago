@@ -1,0 +1,21 @@
+Connexion à un partenaire
+
+Avec cette fenêtre vous vous connecter avec un partenaire quelque part
+dans le monde. Pour converser avec lui, entrer votre texte dans la zone
+en bas de la fenêtre. 
+
+Pour commencer une partie, appuyez sur le bouton "partie" puis 
+entrer les paramètres et appuyez sur le bouton "Demande". Si votre
+partenaire accepte, un plateau apparaîtra et vous pourrez jouer. 
+
+Jouer est similaire à jouer sur IGS/NNGS. Mais le décompte du temps
+est plus précis, puisque le temps ne s'écoule que quand vous réfléchisser. 
+De plus, il n'y a pas de serveur, pour compter les points pour vous. Donc, 
+vous aurez à finir la partie avec la commande du menu, enlever les 
+prisonniers (pierres mortes) et utiliser l'entrée du menu "compter". 
+
+Notez que votre partenaire doit être d'accord pour finir la partie. 
+
+Vous pouvez lui demander d'annuler un coup. Cela annulera son coup 
+et le vôtre  et ajoutera 30 secondes supplémentaires à votre partenaire. 
+Il peut refuser d'annuler. 

@@ -1,0 +1,18 @@
+Définir l'encodage
+
+Cette page définit l'encodage pour la lecture et l'écriture des fichiers
+locaux. Si vous n'êtes pas sûr de cet encodage, effacer la chaîne et
+pressez OK. Jago utilisera l'encodage local par défaut.
+
+Cet option permet de lire des fichiers SGF étrangers. I.e. Cp850 
+permettra de lire des fichiers DOS correctement et 8859_1 est 
+l'encodage par défaut du français. Evidemment, ne vous attendez pas
+à pouvoir affichez des commentaires en japonais sur un ordinateur
+occidental, à moins que vous ayez installez les polices requises 
+pour cela. Un autre encodage utile est l'UTF-8, qui écrit de l'UTF-8 
+encodé en Unicode. Vous pouvez aussi utiliser l'Unicode lui-même, 
+mais votre fichier SGF sera lisible pratiquement nulle part.
+
+Vous pouvez choisir l'encodage pour un serveur individuellement 
+dans les options de connexion au serveur.
+

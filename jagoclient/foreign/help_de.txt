@@ -1,0 +1,12 @@
+Hilfe über Hilfe
+
+Das Hilfesytem besteht aus einer Reihe von Textdateien, die Sie selbst 
+verändern können. Die deutsche Hilfe ist ein einem Jar-Fiele gepackt. 
+Sie können sie allerdings mit jedem normalen Zip-Programm entpacken und 
+wieder einpacken.
+
+Die Hilfedateien müssen sich im aktuellen CLASSPATH befinden. Starten 
+Sie dazu Jago in der Form (für DOS)
+
+set CLASSPATH=c:\jago\jago.jar;c:\jago\JagoResource_de.jar
+java Go 

@@ -1,0 +1,23 @@
+About Firewalls
+
+If you are behind a company firewall, you will probably not be able to
+connect to the internet Go servers directly. If you can telnet to a
+machine outside the firewall, you can overcome this difficulty.
+
+To do this add a new server connection in the main go window. Enter 
+the address of the machine. Use port 23. Do not enter a name and 
+password, but leave these fields blank.
+
+Then connect to the machine. You will find yourself in a simple telnet
+session. Login as usual and issue a telnet command to the internet
+servers, such as
+
+telnet igs.nuri.net 6969
+
+This will connect to the IGS from the remote machine. Now you will be
+prompted for your IGS name and password. You can now use the connection
+normally. Disconnecting from IGS will bring back your machines telnet
+connection. At this point, you can close the connection window.
+
+Local encodings are not possible via Telnet connections, since the 
+telnet protocol sends format commands, which destroy the encoding.

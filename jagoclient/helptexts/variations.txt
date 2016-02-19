@@ -1,0 +1,55 @@
+About Variations
+
+Games are stored as trees. Each node of the tree can have many children.
+Going down from the root node and taking the first child every time is
+the main variation. All other variations are considered side varations.
+
+You create a variation to the current move by clicking to an alternative
+position for this move while holding down the SHIFT key. This kind of
+variation can be seen easily on the board by the green dots. You can
+switch to any of these variation by clicking on it and holding down the
+CONTROL key.
+
+You can also create variations and switch to them with the right mouse
+button.
+
+There are two styles of variation display. Variations can displayed as
+alternatives to the current move, or as possible next moves. In any
+case, the variations are displayed as green dots on the board. One can
+also hide information display completely, in the case the SGF author
+provided board marks for the variations. Even then, it is possible to
+switch to a variation with the right mouse button (or by holding
+the control key). The settings for the variations display can be found
+in the board menu.
+
+Each node may have a name, which you set with the insert key or the
+corresponding menu item. There is a menu item to search for the next
+named node. The node name displays below the board, but only if the
+cursor is off the board.
+
+A node may also have a comment, which is displayed and changed in the 
+comment window (disable the Kibitz windows for non-local games). There 
+is a function to search for strings in comments. the search will scan 
+all variations and end in the root node, if no hits are found.
+
+It is also possible to create a variation with the corresponding menu
+item. In this case, an empty node will be added as a variation. A new
+stone will now be set into this empty node, unless you add some comment
+or other actions to this node before you set the stone. In this case a
+moveless node will be present.
+
+This feature can be used to analyze an on-line game locally. Create a 
+new variation and set your opponents last move. Then study the 
+position. Changes will not be applied to your main tree, but to the 
+generated side variation.
+
+You may also add an empty node at each end of the game tree with the
+corresponding menu entry.
+
+Note that the numbering starts with 1 in each variation.
+
+On non-local boards, some actions may be blocked for the main variation,
+because it is assumed to be controlled by the server. Moves at the end
+of the main variations may be sent to the server instead of the board.
+The server sets the move later, but you get a feedback marker, once the
+move has been sent to the server.

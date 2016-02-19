@@ -1,0 +1,124 @@
+JagoClient Wersja (Version 4.53)
+
+klient dla serwerów internetowych Go i przegl±darka plików SGF,
+prawa autorskie nale¿± do:
+Rene Grothmann.
+
+Program ten jest darmowy na zasadach okre¶lonych w licencji Gnu
+(General Public License.)
+
+Autor nie odpowiada za sposób funkcjonowania programu
+u¿ywasz go na w³asn± odpowiedzialno¶æ.
+
+Najnowsza wersja znajduje siê pod adresem:
+
+"http://mathsrv.ku-eichstaett.de/MGF/homes/grothmann/jago/Go.html".
+
+Problemy i b³êdy nale¿y zglaszac do:
+"grothm@ku-eichstaett.de".
+
+T³umaczenie na jêzyk polski:
+Pawe³ Morawiecki
+Mateusz Janiszewski
+Krzysztof Grabowski
+S³awomir Piela
+
+
+Lista zmian od wersji 4.00:
+
+4.00
+- New look of the board windows. Displays icons now for easy editing.
+4.01
+- Added a send icon for connected Go boards.
+- Removed the board editor icons for connected Go boards.
+- Fixed variation display in second move of game tree.
+- Addes icon help texts.
+4.02
+- Tried to fix some rare Telnet problems with IGS. Seems to work now.
+4.03
+- Fixed the strange behaviour of the "Show Buttons" command.
+4.04
+- Improved the icons somewhat.
+- It is now possible to choose Courier, TimesRoman and Helvetica fonts
+  from the font list.
+4.05
+- New Installers using InstallAnywhere Now!
+4.06
+- Added Chinese resource to InstallAnywhere
+- Kept an smaller Windows installer for Java 1.3
+4.07
+- Fixed the sound problem. Sound now works with Java 1.1 using sun.audio
+  and with Java 1.3 using the new Media API.
+- The send field in the board window now sends empty lines.
+- The send field dialog now centers to the board.
+- The font editor now remembers its previous position.
+- The default connection font is now Monospaced.
+4.08
+- Improved some sound issues.
+4.09
+- New option for variation display. This accomodates viewing files, which
+  were generated under MGT or other programs, which have no onboard
+  variation display.
+- It is now possible to create variations to an observed game with the
+  mouse.
+- Changed some background colors from system to the color set by the
+  user.
+4.10
+- Unimportant cosmetic changes.
+- The Windows installer now installs for several Java versions.
+4.11
+- Removed the help-in-dialog bug that came up with Java 1.3.
+- Removing games only works with more than two games now.
+4.12
+- XML reader and writer update.
+- IconBar update (esp. tooltips).
+4.13
+- Jago can be started with "java -jar jago.jar" in Java 1.3.
+- JagoGame Applet fixed.
+4.14
+- Undo works in GMP games now.
+4.15
+- SGF does no longer save tags with empty actions (like KM[]).
+  (thanks to Ed Gaillard for the hint).
+4.16
+- Fixed the behaviour of "delete stone" a bit. (thanks to Harald
+  Boegeholz)
+4.17
+- Server port for partner server can now be changed.
+- Fixed a problem with numbers on last move.
+4.18
+- New version of Windows installer.
+4.19
+- Fixed removal of white stones (delets AW tag now).
+- Optional continued numbering in variations.
+- Frame title now displays game title for loaded games.
+- Positions can be saved.
+4.20
+- Frame title and game information now contains filename of saved
+  games, if that was empty before.
+- Java Web Start.
+- Configuration files are stored in user home directory instead of the
+  current directory. If needed, copy old files (*.cfg) to new
+  location, which you find by searching c:\ for "go.cfg". Sorry, this
+  had to be done!
+4.21
+- Fixed the error with closing IGS connections by closing the frame in
+  Linux.
+4.22
+- Played and teaching games now send adjourn, when the game is saved.
+- There is a forward button to send ">" in teaching games now.
+4.23
+- Configuration files are always in the user home directory, unless
+  the -h parameter is used.
+- Updated server.cfg with lots of new servers (thanks to Nikolay
+  Nemov)
+4.24
+- Updated the XML format with downward compatibility (besides the XSL
+  style sheet, which works only for the new format).
+4.25
+- Variation marker will not display, when a mark or letter is already
+  at that position.
+- Kogo's joseki library is recognized by its filename, and variation
+  display is temporarily fixed.
+- For Java 1.1 Jago installed via the Windows installer, the memory size is
+  increased to support large SGF files.

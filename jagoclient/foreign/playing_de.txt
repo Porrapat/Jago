@@ -1,0 +1,40 @@
+Spielen
+
+Um einen Zug zu machen, klicken Sie einfach an der richtigen Stelle auf 
+das Brett. Der Zug wird zum Server geschickt, und erscheint dann erst, 
+wenn der Server ihn zurückschickt. Bei einem lokalen Spiel erscheint der 
+Zug natürlich sofort. Natürlich gilt dies auch, wenn Sie in einer 
+Nebenvarianten spielen. Bei Partnerspielen muß der Zug vom 
+Partnerprogramm bestätigt werden.
+
+Eine Vorgabe wird auf dem Server durch das Kommando
+
+handicap 6
+
+gesetzt werden. Dieses Kommando müssen Sie eintippen und zum Server 
+senden. Lokal wird eine Vorgabe dadurch erreicht, daß Sie die schwarzen 
+Steine setzen und dann mit Weiß zu spielen anfangen.
+
+Das Kommando "Passen" kann lokal und auf dem Server verwendet werden.
+
+Sie können während des Spieles am Server Varianten erzeugen. Dazu 
+erzeugen Sie eine leere Variante und geben den letzten Zug nochmals ein. 
+Nun können Sie das Spiel an dieser Stelle studieren. Benutzen Sie die 
+** Taste, um zum Ende der Hauptvariante zurückzukehren. In die Variante 
+kommen Sie zurück, indem Sie zurückgehen und die Taste V> wählen.
+
+Das Ende des Spieles ist verschieden für lokale und nicht-lokale Spiele.
+
+Bei einem lokalen Spiel entfernen Sie die Gefangenen und zählen das 
+Spiel aus. Es wird das chinesische und der japanische Ergebnis angegeben 
+(allerdings mit Berücksichtigung von Seki-Augen).
+
+Ein Server-Spiel wird beendet, indem man paßt. Paßt der Gegner auch, so 
+gilt das Spiel als beendet und der Server wird Sie benachrichtigen. 
+Entfernen Sie nun alle toten Gruppen, indem Sie auf die Gruppen klicken. 
+Dies wird an den Server gemeldet. Außerdem werden Gruppen, die der 
+Gegner entfernt, bei Ihnen ebenfalls entfernt. Wenn alle toten Gruppen
+entfernt sind, so zählen zur Sicherheit zuerst lokal aus. Danach beenden 
+Sie das Spiel, indem Sie done senden (geht mit dem Menü).
+
+Ein Partnerspiel wird ähnlich beendet.

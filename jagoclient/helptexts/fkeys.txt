@@ -1,0 +1,8 @@
+About Function Keys
+
+Function keys are used to send text to the server. You can program each
+function key. The keys work in the connection window, and in the board
+window.
+
+E.g., you may wish to put the forward command to F1. This command is
+used in demo games.

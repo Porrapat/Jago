@@ -1,0 +1,21 @@
+You can set here some options, which may improve the behaviour of Jago
+on your system.
+
+"Pack dialogs" will pack some messages dialogs instead of trying to
+remember their position.
+
+"Set own icon" will try to set the icon of the main windows.
+
+"Use AWT TextArea/List" will let you use the normal text areas and
+games/player lists, instead of the replacements of Jago. If you are not
+satisfied with the server output in the Connection Terminal, try using
+the AWT TextArea. It may be faster or slower, depending on your system.
+Moreover, you will only be able to store a maximum of 32 KB. The List
+option applies in games and player listings and is similar.
+
+"Confirmations" will toggle the extra confirmation when closing a board
+or a connection, and when leaving Jago.
+
+"Linux" takes care of special features of the Linux JVM. First of all,
+windows will close faster. Secondly, the navigation buttons are used
+as normal (which slows them down in Windows, but not in Linux).

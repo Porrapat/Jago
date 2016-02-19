@@ -1,0 +1,38 @@
+Okno terminalu
+
+Internetowe serwery Go umieszczane s? na komputerach pod??czonych do
+sieci. Klient albo po??czenie telnetowe ??czy si? z takim serwerem
+przez bramk? internetow?. Sesja jest asynchroniczna co oznacza ?e
+mo?esz wysy?a? komendy kiedy serwer przesy?a dane.
+
+Aby przes?a? informacj? na serwer wpisz j? do okna tekstowego i
+naci?nij ENTER. Je?li poprzedzisz tekst pustym miejscem informacja nie
+zostanie wy?wietlona w twoim terminalu (puste miejsca zostan?
+usuni?te).
+
+W programie otrzymane wiadomo?ci wy?wietlane s? w terminalu po ich
+wst?pnym przefiltrowaniu. W oknie nie zobaczysz ruchów przeciwnika,
+poniewa? ruchy te wysy?ane s? bezpo?rednio na twoj? plansz?. Niektóre
+wiadomo?ci wy?wietlane s? w oddzielnych oknach aby zwróci? na nie
+twoj? uwag?.
+
+Poza tym nie wszystkie wysy?ane wiadomo?ci wchodz? na serwer bez
+filtrowania. Program kontroluje wej?cie, tak wi?c je?li sprawdzisz
+stan gry za pomoc? komendy ‘status’ nie b?dzie planszy na której mo?na
+wy?wietli? ??dan? informacj?. Z tego powodu nale?y w tym celu u?ywa?
+przycisków w oknie terminala lub w oknie rozgrywki. W przypadku gdy
+otrzymujesz parti? z nieznanej rozgrywki plansza pojawi si?
+automatycznie tak jakby rozpocz?ta zosta?a nowa gra. Protokó? u?ywany
+na IGS jest nieco dziwaczny i chaotyczny tak wi?c trzeba by?o podj??
+pewne ?rodki ostro?no?ci.
+
+Je?li bierzesz udzia? w grze ruchy b?d? przesy?ane na serwer
+bezpo?rednio z twojej planszy. Poza tym mo?esz te? rozmawia? z
+przeciwnikiem i dodawa? komentarze do gry. Oczywi?cie mo?na te? to
+robi? wpisuj?c odpowiedni tekst do pola tekstowego terminala.
+
+Wszystkie informacje w oknie wyj?ciowym mog? zosta? zapisane za pomoc?
+odpowiedniej komendy w menu.
+
+Zamkni?cie okna wyj?ciowego spowoduje roz??czenie z IGS i zako?czenie
+wszystkich gier.

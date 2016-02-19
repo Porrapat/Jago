@@ -1,0 +1,38 @@
+JagoClient Version 4.53
+
+an Internet Go Server Client and SGF viewer,
+programmed by and copyright belonging to
+Rene Grothmann.
+
+This program is freeware under the Gnu General Public License.
+
+The author is not resonsible in any way for the functionality of this
+program. You use the program entirely on your own risk.
+
+For the most recent version, have a look at
+
+"http://www.rene-grothmann.de/".
+
+In case of problems or bugs, send an Email to me. You find my current
+mail address on the page above.
+
+Changes since 4.50:
+
+4.50
+- Final fix of the GMP problem. Also fixes a problem on IGS with
+  fast computers and very fast connections.
+- Implemented friends list in Who window.
+- Friends list is used in Games window to mark games of friends.
+- Non-automatic login does no longer repeat "Enter Password".
+- Games and Who windows show first games by default.
+4.51
+- There is now a mark list for players like the friends list.
+- Marked players and friends are now detected and displayed in
+  match requests.
+4.52
+- Navigation tree display in local SGF viewer.
+- Navigation buttons are more intuitive now.
+- Marker and text colors change with stone color.
+4.53
+- Fix of the GMP problem with spaces in paths (thanks to Rüdiger
+  Klein).

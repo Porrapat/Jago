@@ -1,0 +1,21 @@
+Partie pour enseigner
+
+Certains serveurs ont la possibilité d'enseigner une partie. Cela veut dire
+qu'un joueur joue les deux camps. Les informations pertinentes vous 
+sont fournies avec la commande
+
+    help teach
+
+Habituellement, vous lancez une telle partie avec
+
+    teach 19
+
+où 19 est la taille du plateau. Et vous jouez ensuite contre vous-même. 
+Vous pouvez utiliser la commande kibitz pour commenter la partie d'une
+de ces manières 
+
+    kibitz C'est un très bon coup!
+    ' Trop lent!
+
+Comme toujours, ces kibitz seront dans l'arbre de la partie comme 
+commentaire.

@@ -1,0 +1,7 @@
+O klawiszach funkcyjnych 
+
+Klawisze funkcyjne u¿ywane s± do wysy³ania teksu na serwer. Ka¿dy z
+nich mo¿e byæ oprogramowany indywidualnie. Klawisze dzia³aja w oknie
+g³ównym i oknie gry.  
+
+

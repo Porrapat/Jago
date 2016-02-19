@@ -1,0 +1,6 @@
+Spécifier la langue
+
+Dans cette boîte de dialogue, vous pouvez choisir la langue de 
+l'interface de Jago, qui peut être différente de votre langue; ou sinon
+le programme utilise par défaut l'anglais. Pour obtenir d'autres langues,
+visiter la page web de Jago.

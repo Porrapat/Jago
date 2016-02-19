@@ -1,0 +1,17 @@
+This window displays the list of players. If you choose a rank range, 
+you get only the players in that range. A range looks like 7k-2d. For 
+more information, type "help who" on the server. range selection is 
+done by the server.
+
+There are also local selections. You can omit the players with a quiet 
+(Q) or silent (X) state. You can also restrict to players, which are 
+looking for a game (!).
+
+Players can be marked by clicking on their names. Then you can tell to 
+them, match them or get their stats, or do one of three user definable
+things with them (default is suggest, results and stored). Click with
+the right mouse button and choose from the list of available options.
+
+You can edit three of the buttons with a menu option. In the dialog,
+set the button label and the text to be sent to the server. The %%
+string will be replaced by the selected player.

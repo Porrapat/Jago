@@ -1,0 +1,8 @@
+A propos des touches de fonction
+
+Les touches de fonction sont utilisés pour envoyer du texte au serveur. 
+Vous pouvez programmer chaque touche. Les touches fonctionnent dans la 
+fenêtre de connexion, et dans la fenêtre du plateau de jeu.
+
+Par exemple, vous pouvez utiliser F1 pour la commande avancer. Cette 
+commande sert beacoup dans les parties de démonstration.

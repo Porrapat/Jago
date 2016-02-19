@@ -1,0 +1,27 @@
+Usage des fenêtres
+
+Les détails sont fonction de votre système d'explotation.
+
+Jago conserve la taille et la position des fenêtres dans le fichier go.cfg.
+Il essaye d'écrire ce fichier dans le repertoire courant. Vous devez 
+donc avoir les droits en écriture dans celui-ci. Dans les environnements 
+multi-utilisateurs, vous devez installer un répertoire local pour Jago
+pour chaque utilisateur. Ensuite un script pourra lancer Jago de ce 
+répertoire. Vous passez le répertoire de Jago comme argument avec le
+paramètre -home (ou encore -h ).
+
+La plupart des systèmes permet le copier-coller à partir des zones de 
+texte. Avec Windows, utiliser Ctrl-C pour copier dans le pressse-papier, 
+et Ctrl-V pour coller dans un zone de saisie de Jago. Ou utiliser un clic droit 
+avec la souris pour avoir un menu contextuel. Jago utilise un remplacement 
+pour le texte à moins que vous ayez choisi les zones de texte normales dans 
+les options avancées. Cela permet d'avoir des sorties colorés et de ne pas 
+avoir de contrainte de taille. Le remplacement peut copier dans le 
+presse-papier.
+
+On peut fermer les boîtes de dialogue avec la touche Echap, si elles 
+ont le focus.
+
+Les zones de saisie qui envoie des commandes au serveur, ont un historique. 
+Vous pouvez rappeller les commandes précédentes avec la touche Vers le haut. 
+

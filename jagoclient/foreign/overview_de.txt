@@ -1,0 +1,15 @@
+Übersicht
+
+Falls Sie schon mit anderen Clients oder per Telnet im Internet Go 
+gespielt haben, so sollten Sie keine Probleme mit diesem Client haben. 
+Geben Sie einfach die notwendigen Daten ein und verbinden Sie sich mit 
+dem Server. Sie können entweder automatisch einloggen oder per Hand, 
+indem Sie keinen Benutzernamen eingeben.
+
+Falls Sie neu in der Welt des Internet-Go sind, so sollten Sie zunächst 
+die Dokumentation zu diesem Programm lesen. Dazu öffnen Sie die Datei 
+Go.html mit einem WWW-Browser.
+
+Sie können Jago außerdem als Spiel-Editor verwenden, oder sich mit einem 
+Partner ohne Server verbinden.
+

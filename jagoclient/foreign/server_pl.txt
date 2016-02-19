@@ -1,0 +1,38 @@
+Obs?uga serwera
+
+Nie znajdziecie tu kompletnego wprowadzenia w obs?ug? protoko?u IGS.
+Na pocz?tek proponuj? po po??czeniu wpisa? ‘help’. Wi?cej informacji
+znale?? mo?na w HTML-owym pliku pomocy. Przycisk ‘Games’ wy?wietla
+wszystkie tocz?ce si? partie. Z ich listy wybra? mo?na gr? któr? chce
+si? obserwowa? – po jej wybraniu pojawi si? plansza uaktualniana po
+ka?dym posuni?ciu. Peek albo Status wy?wietlaj? wy??cznie aktualny
+stan gry. Status jest szybsze nie daje jednak wgl?du w przebieg
+rozgrywki.
+
+Je?li chcesz z kims porozmawia? nale?y u?yc komendy ‘tell’:
+
+tell <imi?> Cze??, masz ochot? zagra??
+
+Gdy ju? wybierzesz partnera do rozmowy mo?esz u?ywa? skrótu:
+
+. Cze??, masz ochot? zagra??
+
+Gdy kto? odezwie si? do ciebie pojawi si? oddzielne okno. Mo?esz
+u?ywa? go do bezpo?redniej rozmowy.
+
+Je?li chcesz z kim? zagra? u?yj komendy ‘match’
+
+match imi? b 19 10 5
+
+gdzie b to wybrany przez ciebie kolor, 19 to wielko?? planszy, 10
+minut to czas podstawowy a 5 czas na ka?de nastepne 25 ruchów.
+Przeciwnika wybiera? mo?na tak?e z listy graczy, do której dostep
+uzyskuje si? przez przycisk Who. Po wybraniu nale?y wcisn?? Match i
+wybra? ustawienia dla gry.
+
+Je?eli kto? rzuci ci wyzwanie serwer da ci mo?liwo?? przyj?cia lub
+odrzucenia wyzwania – pojawi si? okno w którym b?dziesz móg? zaznaczy?
+jaka jest twoja decyzja. Ustawienia partii s? takie same jak w
+przypadku rzucania wyzwania.
+
+Informacje na temat jak gra? znale?? mo?na w pliku ‘obs?uga partii’

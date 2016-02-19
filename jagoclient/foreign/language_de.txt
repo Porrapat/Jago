@@ -1,0 +1,8 @@
+Sprache Festlegen
+
+Falls Sie es wollen, können Sie Jago in einer anderen Sprache betreiben. 
+Sie benötigen dazu die entsprechende Resourcendatei. Wenn Sie eine 
+Sprache einstellen, deren Resource Sie nicht haben (oder die Einstellung 
+leer lassen), so wird die englische Resource in jago.jar verwendet.
+
+Das Hauptfenster wird erst beim nächsten Start von Jago übersetzt.

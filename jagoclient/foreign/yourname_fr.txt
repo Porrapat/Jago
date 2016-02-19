@@ -1,0 +1,4 @@
+Cela définit votre nom pour les connexions à un partenaire.
+
+Le format recommandé est "nom (Force)". Le nom peut
+contenir des blancs

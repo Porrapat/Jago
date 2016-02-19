@@ -1,0 +1,51 @@
+Configuring your Connections
+
+To setup your server connection, press the Edit or Add button in the
+upper half. A dialog appears, where you have to enter the following
+items:
+
+- Connection name: This is the name, that should appear in the
+  connections list.
+- Server: The internet name of the server. See below for a list
+  of available servers.
+- Port: The port the server is watching (see below). If you plan to
+  connect through a telnet session (see "About Firewalls"), enter 23.
+- User name: The name your are using on the server. If you want a guest
+  account, leave this field empty and follow the instructions of your 
+  server.
+- Password: Your login password for the server. If you leave this open,
+  you will be prompted for the password every time, unless you did not set 
+  your user name.
+- Move Style: Do not change this from the default "move" unless you know
+  what you are doing.
+- Encoding: This determines, how strings are translated between Java and
+  the server. When you add a new connection, you will see your default
+  codepage. For Europe it is 8859_1 or Cp1252. If you leave this empty,
+  default local codepage will be used. You may try ASCII in any case.
+  If you prepend the codepage with a !, Telnet filtering will be avoided.
+
+Here are the internet names (addresses) and the ports of the existing
+servers:
+
+igs.nuri.net 6969
+nngs.cosmic.org 9696
+lgs.hinet.net 9696
+wing.brlnet.net 1515
+
+JagoClient should be preconfigured with these servers.
+
+Problems with encodings
+
+Some code pages contain more than 256 characters. To adjust for this
+the server sends sequences of characters following a pattern, the
+so-called encoding. Howerver, there might be a format error, if you
+have the wrong encoding. In this case, the connection is closed and
+you get a MalFormedInputException.
+
+To overcome this, use the correct encoding or some innocent encoding
+like 8859_1 or even ASCII. As a further difficulty, the server may
+send Telnet characters, which confuses the decoder. This is normally
+filtered out automatically, which again may confuse the decoder. If
+you experience problems with a codepage, try prepending the codepage
+with ! (as in "!Cp1552"). Now, Jago will not try to filter out Telnet
+commands. If that still does not work, use "!ASCII", then "ASCII".

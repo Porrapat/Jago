@@ -1,0 +1,4 @@
+In diesem Dialog können Sie einen Relay-Server einstellen. Dies ist ein 
+Server, der ein spezielles Program laufen läßt, das ihre Eingaben an den 
+Internet-Server weitergibt. Ein solcher Server ist notwendig, wenn Sie 
+Jago in ihrem Browser laufen lassen.

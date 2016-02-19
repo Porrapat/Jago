@@ -1,0 +1,42 @@
+Aide sur le serveur
+
+Je ne peux vous donner une introduction au protocole IGS ici. Pour 
+de l'aide, tapez "help" une fois connecter. consultez les fichiers HTML 
+pour plus détails. 
+
+Le bouton "Parties" affiche les parties en cours sur le serveur. A partir 
+de là vous pouvez sélectionner une partie et l'observer. Cela vous
+affichera une vue du plateau qui sera actualiser à chaque nouveau coup. 
+"Choisir" ou "Etat" affiche la position actuelle de la partie. Etat est plus rapide 
+car il ne charge pas l'historique de la partie. 
+
+Ensuite, vous pouvez vouloir parler avec quelqu'un. Utiliser la 
+commande "talk" de la façon suivante:
+
+talk name Salut, comment ça va ? Une partie ?
+
+Après le premièr "talk", vous pouvez abrégé en 
+
+. Salut, comment ça va ? Une partie ?
+
+Si quelqu'un vous parle, cela s'affichera dans une fenêtre séparée.
+Vous pouvez utiliser cette fenêtre pour répondre directement.
+
+Si vous voulez jouer une partie avec quelqu'un, utiliser la 
+commande "match":
+
+match name b 19 10 5
+
+Ici b (_b_lack) est votre couleur et 19 la taille du plateau. Le jeu durera
+10 minutes avec 5 minutes supplémentaires par 25 coups. Vous 
+pouvez aussi sélectionner un joueur à partir de la liste des joueurs,
+que vous obtenez en appuyant sur le bouton Liste des joueurs. Alors,
+vous pouvez appuyer sur le bouton Partie et remplir les champs.
+
+Si quelqu'un vous propose une partie, le serveur vous enverra la
+possibilité d'accepter ou de refuser. Cela ouvrira une boîte de dialogue 
+pour accpter ou refuser. Le format d'une requête pour une partie est 
+le même que celuui pour un match.
+
+Voir l'aide sur le plateau de jeu, pour plus d'aide sur comment jouer
+une partie.

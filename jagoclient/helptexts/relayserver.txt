@@ -1,0 +1,7 @@
+This lets you set a relay server. You should only use this, if you are
+running Jago through a browser. In this case your server (the one that
+holds the jago applet), runs a relay demon. Normally, this will be
+preset by the server administrator.
+
+However, the relay system can be replaced by relaxing the security for
+Java applet. This is possible in the Internet Explorer.

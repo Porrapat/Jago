@@ -1,0 +1,36 @@
+Obserwacja a rozgrywka
+
+Nale¿y zdawaæ sobie sprawê, ¿e niefortunnie sformu³owany protokó³
+serwera powoduje czasem b³êdy w ocenie wielko¶ci planszy.
+
+Przede wszystkim gdy zaczynasz obserwacjê dowolnej gry Jago uruchamia
+planszê obserwatora. Nastêpnie wysy³ane jest pro¶ba o przes³anie stanu
+gry, g³ównie po to by klient dowiedzia³ siê jaka jest wielko¶æ
+planszy. Dopiero po tych czynno¶ciach rozpoczyna siê w³a¶ciwa
+obserwacja. Serwer wysy³a teraz ruch do tej gry - ruch ten jest jednak
+odrzucany Jago bowiem ¿±da najpierw poprzednich ruchów. Tak wiêc
+rozpoczyna siê przesy³anie ruchów i na planszy pojawiaj± siê piony.
+
+Gdy zamykasz plansze obserwatora serwer otrzymuje polecenia
+unobserve.
+
+Drug± rzecz± o której nale¿y pamiêtaæ to fakt, ¿e gdy rozpoczynasz
+grê, jej numer jest nieznany tak wiêc Jago wybiera pierwszy nieu¿ywany
+numer gry i otwiera planszê. Gdy pro¶ba o podanie stanu (patrz wy¿ej)
+zostanie ju¿ wys³ana Jago ³aduje pozycjê - mo¿e siê bowiem zdarzyæ, ¿e
+nowa gra jest wznowieniem przerwanej gry. Zamykanie planszy nie
+przesy³a ¿adnego polecenia.
+
+Procedura ta mo¿e powodowaæ problemy przy:
+
+- przypadkowym zamkniêciu planszy - w takim wypadku nale¿y grê zawiesiæ (adjourn) i za³adowaæ od nowa
+- obserwacji:
+
+1. czasem zamiast planszy obserwatora otwiera siê plansza do
+rozgrywki. Mo¿e siê tak zdarzyæ gdy serwer zaczyna lub wci±¿ przesy³a
+do ciebie ruchy (z powodu opó¼nienia przesy³u czy te¿ innych powodów).
+W zasadzie nie jest to powa¿ny problem, mo¿na jednak wy³±czyæ tryb
+gry, co spowoduje ¿e ruchy przestan± byæ do ciebie wysy³ane.
+
+2. przy w³±czonym trybie gry istnieje mo¿liwo¶æ zagrywania na planszê
+obserwatora (osobi¶cie nie znam klienta, który by to umo¿liwia³)

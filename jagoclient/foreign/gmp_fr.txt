@@ -1,0 +1,17 @@
+Jouer contre un programme
+
+Si vous avez un programme de go qui est compatible avec le 
+protocole GMP (Go Modem Protocol), vous pouvez jouer contre 
+lui avec Jago. Ce protocole ne nécessite pas de modem comme 
+peut le laisser croire son nom, mais peut se connecter à tout 
+programme sur votre machine. Jago lancera le programme et 
+établir la liaison pour le déroulement de la partie.
+
+J'ai pu le tester contre GnuGo sur Linux et Windows. Vous pouvez 
+télécharger la version qui vous convient sur la page de GnuGo
+
+http://www.gnu.org/software/gnugo/devel.html
+
+Il y a aussi des binaires sur notre serveur. Voir la page de Jago 
+
+http://mathsrv.ku-eichstaett.de/MGF/homes/grothmann

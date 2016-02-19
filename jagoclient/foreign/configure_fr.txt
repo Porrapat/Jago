@@ -1,0 +1,51 @@
+Configurer votre connexion
+
+Pour mettre en place votre connexion au serveur, cliquez sur le bouton
+Modifier ou Ajouter. Une boite de dialogue apparaît où vous avez à
+taper :
+
+- le nom de la connexion: C'est le nom qui apparaîtra dans la liste des
+connexions.
+- le serveur: le nom du serveur. Voir plus bas pour une liste des serveurs
+disponibles.
+- le port: le port sur lequel "écoute" le serveur (Voir plus bas). Si vous
+prévoyez de vous connecter avec une session Telnet (Voir "Contourner 
+les pare-feu"), taper 23.
+- le nom d'utilisateur: le nom que vous utilisez sur le serveur. Si vous voulez 
+un compte anonyme, laissez ce champ vide et suivez les instructions du 
+serveur.
+- le mot de passe: votre mot de passe de connexion à ce serveur. Si vous le 
+laissez vide, vous devrez le taper à chaque fois, à moins que vous n'ayez pas
+défini de nom d'utilisateur.
+- le style de jeu: ne le changer pas à moins de savoir ce que vous faîtes.
+- l'encodage: cela détermine comment les chaînes de caractères seront 
+transmises entre Jago et le serveur. Quand vous ajoutez une connexion, cet 
+encodage sera placé sur celui par défaut. Pour l'Europe, c'est 8859_1 ou 
+Cp1252. Si vous le laissez vide, l'encodage par défaut sera utilisé. Dans tous
+les cas, vous pouvez utilisez l'ASCII. Si vous faîtes précéder l'encodage par un 
+point d'exclamation (!), le filtrage Telnet sera évité.
+
+Voici les adresses Internet (avec le port) de serveurs existants:
+
+igs.nuri.net 6969
+nngs.cosmic.org 9696
+lgs.hinet.net 9696
+wing.brlnet.net 1515
+
+Jago devrait être préconfiguré avec ces serveurs.
+
+Problèmes avec l'encodage
+
+Certains encodages contiennent plus de 256 caractères. Pour s'y adapter
+le serveur envoie une suite de caractère après un code, pour signifier 
+l'encodage. Pourtant cela peut provoquer une erreur, si vous avez le 
+mauvais encodage. Alors la connexion est rompue, et vous avez une 
+exception MalFormedInputException.
+
+Pour surmonter cela, utiliser le bon encodage ou un encodage (passe-partout)
+comme l'ASCII ou 8859_1. Pour compliquer les choses, le serveur peut 
+envoyer des caractères Telnet, ce qui embrouille le décodeur. Si vous en 
+faites les frais, essayez de préfixer le nom de l'encodage avec un point 
+d'exclamation (!) comme par exemple  "!Cp1552". Alors, Jago ne cherchera 
+pas à filtrer les commandes telnet. Si cela ne marche toujours pas, essayez 
+"!ASCII" ou encore "ASCII"".

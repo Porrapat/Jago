@@ -1,0 +1,26 @@
+Diese Optionen sind nur für Insider gedacht.
+
+"Dialoge Packen" packt die Dialoge in eine möglichst kleine Form. 
+Ansonsten merkt sich Jago immer die letzte Dialoggröße und Position.
+
+"Icons benutzen" sollte man nur mit der neuesten Java Version. In alten 
+Versionen hatte Java einen Bug, der zum Absturz des Rechners führen 
+konnte. Sollte ab 1.1.7 überall behoben sein.
+
+Jago verwendet einen Ersatz für die AWT-Komponenten List und TextArea. 
+Sie sollten diesen Ersatz nur abschalten, wenn Ihr System zu langsam 
+wird. Die Ersatzkomponenten sind etwas flexibler (Farbe) und haben keine 
+Größenbeschränkung.
+
+"Bestätigungen" stellt etliche Bestätigungen ab, etwa beim Schließen
+eines Brettes, beim Schließen einer Verbindung und beim Beenden des
+Programms. Kann man getrost ausschalten, wenn man ein wenig aufpaßt.
+
+"Linux" sollte man auf Linuxrechnern mit dem JDK 1.1.x anstellen. Dies
+behebt zwei Besonderheiten dieser JVM. Erstens schließen sich nun Fenster
+wesentlich schneller, die ein Menü haben, und zweitens kann es nicht
+passieren, daß Knöpfe gedrückt bleiben. Man kann das auch auf anderen
+Rechnern anlassen. Auf Windows reagieren die Buttons aber schneller,
+wenn die Option aus ist.
+
+

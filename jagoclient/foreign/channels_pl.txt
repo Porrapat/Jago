@@ -1,0 +1,26 @@
+Kana³y 
+
+To okienko siê otwiera je¶li jeste¶ na danym kanale i wiadomo¶æ
+zosta³a wys³ana na ten kana³. Program otwiera osobne okienko dla
+ka¿dego z kana³ów. Aby wys³aæ wiadomo¶æ wpisz odpowiedni tekst w
+przeznaczonym do tego polu tekstowym. Nie jest konieczne u¿ywanie
+¶rednika, który poprzedza tekst. 
+
+Je¿eli jeste¶ na kilku kana³ach musisz u¿yæ nastêpuj±cej komendy dla
+wys³ania wiadomo¶ci na konkretny kana³. Niestety dla ro¿nych serwerów
+te komendy s± trochê inne: 
+
+serwer IGS:
+; \## Twój tekst
+
+NNGS:
+; ## Twój tekst
+
+gdzie ## to numer kana³u. 
+
+
+Oczywi¶cie mo¿liwe jest wpisywanie innych dostêpnych komend w polu
+tekstowym.
+
+Mo¿esz przywo³aæ wcze¶niej napisany tekst naciskaj±c odpowiednio górna
+lub dolna strza³kê na klawiaturze.

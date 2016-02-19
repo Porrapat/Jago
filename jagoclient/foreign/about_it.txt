@@ -1,0 +1,23 @@
+JagoClient Versione Italiana (Version 4.53)
+
+un client per gli Internet Go Server e un editor per il formato
+SGF, scritto da Rene Grohtmann che ne possiede il copyright.
+
+Questo programma e' freeware. E' vietata la distribuzione
+commerciale. Sei invitato a distribuire Jago, da solo o incluso in
+raccolte di software shareware/freeware, a patto che venga nominato
+l'autore e che risulti chiaramente che Jago e' un prodotto freeware.
+
+L'autore non e' responsabile in nessun modo della funzionalita' di
+questo software. Lo stesso dicasi degli autori della versione
+italiana. L'uso del software e' interamente a tuo rischio.
+
+Per le versioni piu' recenti di Jago puoi consultare la pagina che
+trovi a questo indirizzo:
+
+"http://mathsrv.ku-eichstaett.de/MGF/homes/grothmann/jago/Go.html".
+
+In caso di problemi o malfunzionamenti del programma invia una Email
+in inglese a: "grothm@ku-eichstaett.de". Se invece pensi di aver
+trovato degli errori nella traduzione in italiano dei menu' del
+programma o degli aiuti, invia un'email a: "bahia@tiscalinet.it"

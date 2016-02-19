@@ -1,0 +1,16 @@
+Set Encoding
+
+This page sets the encoding for reading and writing local files. If 
+you are unsure about your local codepage, delete the string and press 
+OK. Jago will then use the default local codepage.
+
+This option is for reading foreign SGF files. E.g., Cp850 will read 
+files written under DOS correctly and 8859_1 is the default german 
+codepage. Of course, you cannot expect to be able to display Japanese 
+comments on a western Windows system, unless you have installed the 
+proper fonts. Another useful codepage is UTF8, which writes UTF-8
+encoded Unicode. You can also use Unicode itself, but then your
+your SGF files will be readable almost nowhere.
+
+You can set the codepage for server connections individually in the 
+settings for server connections.

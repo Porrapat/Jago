@@ -1,0 +1,15 @@
+Strona kodowa
+
+Ustawienia te dotycz± czytania i zapisywania plików lokalnych. Je¶li
+nie jeste¶ pewien co do Twojej strony kodowej, skasuj to pole i
+naci¶nij OK. Jago ustawi domy¶ln± stronê kodow±. 
+
+Opcja ta jest przeznaczona do czytania plików SGF. Na przyk³ad Cp850
+bêdzie poprawnie obs³ugiwa³o pliki napisane pod systemem DOS a z kolei
+Cp1250 mo¿e byæ domy¶ln± strona kodowa polskich znaków. Oczywi¶cie,
+nie mo¿esz oczekiwaæ, ze bêd± wy¶wietlane japoñskie komentarze je¶li
+wcze¶niej nie masz zainstalowanych odpowiednich czcionek. Inna pomocna
+strona kodowa jest UTF8, która zapisuje znaki w tzw. Unicode. U¿ywaj±c
+jej Twoje pliki bêd± odczytywane niemal wszêdzie. 
+
+Mo¿esz ustawiæ stronê kodowa dla ka¿dego po³±czenia oddzielnie.

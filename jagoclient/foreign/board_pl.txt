@@ -1,0 +1,100 @@
+Okno Planszy
+
+Okno to sk³ada siê z nastepuj±cych elementów:
+
+- menu
+- plansza
+- etykieta informacyjna
+- etykieta wspó³rzêdnych kursora
+- przycisk cofnij
+- przyciski nawigacji
+- przyciski wariantów
+- przycisk 'wy¶lij' jesli plansza nie jest lokalna
+- okno komentarzy(lub komend Kibitz)
+
+Menu
+
+Menu plik pozwala wyczy¶ciæ planszê, zapisaæ j± na dysk lub wczytaæ grê
+z dysku.
+
+Menu ustawieñ pozwala Ci ustawiæ czy masz graæ z kim oraz wykonaæ inne
+czynno¶ci. Mo¿esz zaznaczaæ punkty lub nanosiæ litery  a,b,c... Mo¿na
+tak¿e usówaæ kamienie z planszy. Handicapy ustawiamy poprzez
+umieszczenie czarnych kamieni na planszy i wci¶niêcie przycisku "Ruch
+bia³ego". Jest tak¿e opcja kasowania wszystkich markerów
+
+Znajduje siê tu tak¿e menu do modyfikacji zapisu gry poprzez tworzenie
+wariantów. Prosimy zapoznaæ siê z pomoc± dotycz±c± tworzenia i edycji
+wariantów.
+
+Komenda WYNIK (score) pozwala zakoñczyæ grê. Prosimy zapoznaæ siê z
+tematami pomocy dotycz±cymi rozgrywania gier.
+
+Plansza
+
+Plansza wy¶wietla bie¿±c± sytuacjê.Znaczniki wy¶wietlane s± w kolorze
+niebieskim litery w zielonym. Ostatni ruch podkre¶lony jest przez
+bia³y kwadrat. Warianty oznaczone s± zielonymi kropkami(zapoznaj siê z
+plikami pomocy o wariantach).Szary znacznik wy¶wietlany jest dla
+ruchów wys³anych lecz jeszcze nie przyjêtych przez serwer.
+
+Pod plansza znajduje siê etykieta, wy¶wietlaj±ca informacjê o
+spodziewanej czynno¶ci. Informuje tak¿ê czy znajdujesz siê w obszarze
+gry (znakiem '*') czy wariantu. Koniec wariantu oznaczony jest
+podwójnym znakiem '**' Ponaddto wy¶wietlane s± wspó³rzêdne twego
+kursora..
+
+Przyciski
+
+Przycisk COFNIJ zachowuje siê inaczej w przypadku odtwarzania
+wcze¶niej zapisanej gry gry lokalnej a inaczej w przypadku gry przez
+internet. W trakcie gry przez internet posy³a komendê COFNIJ. Komenda
+ta mo¿e byæ u¿ywana do cofniêcia ruchu przeciwnika  tylko gdy ty
+posiadasz prawo ruchu. W przypadku wczytanych gier komenda ta po
+prostu usówa ostatni ruch.
+
+Przyciski kierunku u¿ywane s± do przesówania siê w górê i w dó³ wariantów.
+
+Przyciski wariantów u¿ywane s± do prze³±czania siê miêdzy wariantami.
+Przycisk V przenosi do pierwszego ruchu bie¿±cego wariantu.
+Przycisk * przenosi do g³ównego wariantu  a ** do koñca g³ównego wariantu.
+to the end of the main variation.
+
+Przycisk WY¦LIJ u¿ywany jest do szybkiego wysylania komend na serwer.
+
+
+Okno komentazy
+
+Ten obszar moze byc u¿ywany do uwag lub komentowania gier czyli komend
+zwanych  Kibitz. Komendy Kibitz dostêpne s± tylko w trybie gry przez
+Internet. Komendy wysylane jako Kibitz widziane s± jedynie przez osoby
+obsrewuj±ce grê a nie graczy. Okno komentarzy wyswietla tak¿e
+informacje nadsylane przez serwer. window with a menu option. The
+Kibitz windows may also display server output.
+
+Opcje
+
+If you have chosen the option, there will be an extra send field.
+Entering text here and pressing return send the text unparsed to the
+server.
+
+Furthermore, there might be an information label containing the
+remaining times for each player. If not, the times are displayed in the
+window title or the big timer label above the comment area.
+
+If chosen, the big timer will display the remaining times for white
+and black (white time on the left). The timer will turn dark red,
+if it is less than 60 seconds, and brighter red below 30 seconds.
+If selected, warning ticks will sound on 30,20 and 10 seconds.
+
+Board options
+
+You can set the board color, stone and sparkle color in the options 
+menu, but it is best to use a brownish tone. Furthermore, you can 
+choose a nice wooden board and anti-aliased stones, which throw 
+shadows on the board. This will take time to get computed at first 
+display and every time you resize the board.
+
+Note that some board options must to be chosen, before the board is 
+opened. However, the coordinate layout and the true color options
+are available at all times.

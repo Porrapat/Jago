@@ -1,0 +1,24 @@
+Channels
+
+Dieses Fenster öffnet sich, wenn Sie eine Gesprächsrunde (Channel) 
+gewählt haben und jemand eine Nachricht in die Runde gesendet hat. 
+Jede Runde öffnet ein anderes Fenster.
+
+Schicken Sie eine Nachricht ab, indem Sie sie in die Textzeile eingeben 
+und die Eingabetaste drücken.
+
+Wenn Sie mehrere Gesprächsrunden gewählt haben, geben Sie bitte Ihre 
+Nachricht folgendermaßen ein.
+
+IGS:
+\## message
+NNGS:
+## message
+
+Leider sind diese Kommandos von Server zu Server verschieden.
+
+Mit
+
+help channels
+
+erfahren Sie, wie Sie einer Gesprächsrunde beitreten können.

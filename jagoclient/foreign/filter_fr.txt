@@ -1,0 +1,25 @@
+A propos des filtres
+
+Vous pouvez éditez les filtres que Jago utilise pour bloquer des 
+informations ou des messages. Par défaut, ceux provenant d'autres
+joueurs font apparaître un fenêtre de dialogue (pop-up). Vous pouvez 
+l'activer pour tous les messages avec l'entrée de menu dans la fenêtre
+des connexions. Mais parfois, vous voudrez bloquer des messages 
+spécifiques.
+
+Vous pouvez créer un filtre pour cela. Un filtre a un nom. Vous pouvez
+choisir si le filtre bloque le message complètement ou seulement empêche
+un pop-up. 
+
+Un filtre est constitué d'une chaîne de début, une chaîne que doit contenir 
+le message et une chaîne de fin. Une des deux peut être vide.
+
+Un filtre positif permet de laisser passer les messages, même s'ils 
+devraient être bloquer d'après l'option cocher dans le menu. De cette 
+manière vous pouvez attendre qu'une personne donnée arrive ou quitte 
+le serveur. i.e. si "Affichage limité" est coché, les messages commençant 
+par une accolade "{" sont normallement bloqués. Si un filtre positif s'applique, ils 
+apparaîtront dans la fenêtre de connexion, et vous aurez un message 
+sonore.
+
+Enfin, il y a une entrée de menu pour attendre un joueur.

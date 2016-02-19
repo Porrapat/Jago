@@ -1,0 +1,21 @@
+Overview
+
+If you ever played go at any of the internet go servers, you will have 
+no problems with this client. Just setup your connection and connect. 
+You may either use an automatic login procedure or enter the name and 
+password yourself.
+
+If you are new to the internet world of go, read the HTML 
+documentation, that comes with this program, or refer to the various 
+help files.
+
+Jago lets you play a game directly with a friend over the internet. 
+You get the advantage of accurate timings of moves and a private 
+atmosphere. See the help file about partner games for more 
+information. This feature can be used to create a small network of 
+open servers.
+
+Jago is designed to be used as a SGF editor for go games. It will 
+create game variations, comments, node names, board labels, markers 
+and much more. There is even a search function to search for text in 
+comments.

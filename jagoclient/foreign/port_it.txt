@@ -1,0 +1,1 @@
+In questa finestra puoi definire la porta del tuo server per leconnessioni con un partner.  Il valore normale dovrebbe essere 6970.

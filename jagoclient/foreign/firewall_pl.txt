@@ -1,0 +1,25 @@
+Firewalls
+
+Jesli znajdujesz sie za firewall'em prawdopodobnie nie bedziesz w
+stanie po³aczyæ siê z serwerami Go bezpo¶rednio. Jesli uda ci siê
+po³±czyæ telnetem z jak±¶ inn± maszyn± poza firewall'em masz szansê na
+obej¶cie tego problemu.  
+
+Aby to uczynic dodaj nowy serwer w menu po³aczeñ. Podaj adres maszyny
+a port ustaw na 23. Nie podawaj nazwy uzytkownika i hasla. Zostaw te
+pola puste.
+
+Po³±cz sie z t± maszyn±. Otworzysz zwyk³± sejsjê telnetow±. Zaloguj
+sie i wydaj zwyk³a komendê tak± jak: 
+
+telnet aurora.go.art.pl 9696 
+
+Pozwoli to na po³±czenie z serwerem Aurora przez inn± maszyne. Teraz
+poproszony zostaniesz o nazwê u¿ytkowiniak i has³o. Dalsze korzystanie
+z serwera przebiega normalnie. Zakoñczenie sesji przeniesie ciê na
+maszynê po¶rednicz±c± i w tym momencie mo¿esz normalnie zamkn±æ okna
+programu. 
+ 
+Przy tym sposobie korzystania z serwerów nie jest mo¿liwym u¿ywanie
+lokalnego kodowania znaków jak¿e jest ono tracone przy komunikacji
+telnetowej. 

@@ -1,0 +1,9 @@
+Istnieje mo?liwo?? ustawienia serwera retransmisji. Opcji tej u?ywa?
+nale?y tylko przy obs?udze Jago przez przegl?dark?. W takim przypadku
+twój serwer (ten na którym znajduje nak?adka Jago) uruchamia demona
+retransmituj?cego. Standardowo opcja ta uruchamiana jest przez
+administratora.
+
+System retransmituj?cy mo?na omin?? w ustawieniach bezpiecze?stwa dla
+nak?adek Javy – taka mo?liwo?? dost?pna jest na przyk?ad w Internet
+Explorer

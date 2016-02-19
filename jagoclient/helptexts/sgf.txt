@@ -1,0 +1,34 @@
+The Go Formats
+
+This program uses XML or SGF to save files. There are other viewers
+available for this format, so you can use your files with those
+viewers. Available viewers are Smart Go, Many Faces of Go (Windows)
+and cgoban (Unix). However, there are also alternative formats, like
+the format used by Goscribe (file name *.go instead of *.sgf).
+
+XML is the computer industry standard to store information and should
+be preferred in the long run. However, Jago is currently the only
+tgo viewer supporting XML and sets its own standards. You can get more
+information about this format on the Jago home page.
+
+Some SGF viewers do not support the full range of tags. This applies
+to labels and markers. If you use the labels of Jago, those will be
+saved with the L tag, which is not officially part of the SGF format.
+However, all programs I know of understand it, whereas some do not
+understand the LB replacement. A similar problem occurs with the
+marker command.
+
+To make sure, you are saving in pure SGF format, check the pure SGF menu
+item. However, this will make your labels and marks invisible for the
+MGT program. So for this program leave the options unchecked.
+
+Another topic is the save format of comments and other longer text.
+In SGF, every line forms a paragraph. The lines are allowed to be
+broken with a soft line break. Jago separates paragraphs by blank
+lines as some other viewers do. E.g., WinMGT32 just discards the soft
+line breaks and displays the comments linewise with wrapping. You
+should probably use the SGF style.
+
+To make sure the file displays well in MGT, uncheck the pure SGF menu
+item, and do not use the special markers.
+

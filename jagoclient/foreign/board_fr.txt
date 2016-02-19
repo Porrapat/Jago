@@ -1,0 +1,110 @@
+Plateau de jeu
+
+Cette fenêtre contient les éléments suivants
+
+- le menu
+- le plateau en lui-même
+- un texte d'information
+- les coordonnées sous le curseur
+- un bouton d'annulation
+- les boutons de mouvement
+- les boutons pour les variantes
+- un bouton d'envoi, si ce n'est pas un plateau local
+- une fenêtre de commentaire (fenêtre Kibitz)
+
+Le menu
+Le menu Fichier vous permet de vider le plateau, de le sauver et de charger
+un jeu enregistré. Vider et charger n'est possible que pour les plateaux locaux.
+De même pour changer la taille du plateau, ce qui se fait automatiquement pour les
+parties sur Internet.  
+
+Le menu Définir permet de choisir de jouer, qui joue, ou de faire des 
+choses spéciales. Vous pouvez placer un marquage au endroit vide ou sur 
+des pierres, ou placer des lettres a,b,c,... Vou pouvez même enlevez des 
+pierres du plateau. Définir un handicap se fait en placant des pierres noires 
+et en choisissant le bouton "Aux blancs je jouer". Il y a une option pour 
+enlever tous les marquages.
+
+Noter qu'en jouant sur Internet, le serveur contrôle chaque coup joué. Votre 
+coup n'est valide qu'une fois confirmé par le serveur. Ceci ne s'applique qu'à la 
+variante principale. Sur les autres variantes, vous pouvez faire ce que bon 
+vous semble.   
+
+Il y a un menu pour modifier l'arbre du jeu en créant des noeuds vides.
+Reportez vous à l'aide sur les variantes pour plus de détails.
+
+La commande "Résultat final" est utilisée pour finir la partie. Reportez vous 
+à l'aide "Jouer une partie" pour plus de détails.   
+
+Le plateau
+
+Le plateau de jeu affiche le jeu en cours. Les marquages sont affichés
+en bleu et les lettres en jaune. Le dernier coup est surligné par un 
+rectangle blanc. Les variantes  sont affichés par des points verts (reportez-vous
+à l'aide sur les variantes). Un marquage gris est affiché pour les coups, 
+qui ont été envoyé mais pas encore confirmé par le serveur.
+  
+Sous le plateau, un texte vous explique l'action attendue. Il vous montre
+que vous êtes dans la variante principale par une étoile(*), si vous êtes 
+à la fin de celle-ci par deux étoiles (**). En face sont affichées les coordonnées 
+sous le curseur de la souris.
+
+Les boutons
+
+Le bouton d'annulation fonctionne différemment sur le net ou localement.
+Sur le net et à la fin de variante principale, il envoie la commande d'annulation.
+Cette commande est utile pour annuler le coup de l'adversaire et ne peut s'utiliser
+que si c'est à votre tour de jouer. Sinon, ce bouton annule le dernier coup. 
+
+Les boutons directionnelles servent à se déplacer (vers le haut  et le bas)
+dans la variante.
+
+Les boutons de variantes servent à changer de variantes. Le bouton V
+se déplace en haut au premier coup de la variante courante. Le bouton *
+se déplace en haut de la variante principale et le bouton ** à la fin de 
+la variante principale.
+
+Le bouton Envoyer sert sur les parties non locales pour envoyer des 
+commandes au serveur rapidement.  
+
+Fenêtre des commentaires
+
+Cette zone peut être utiliser par une fenêtre Kibitz ou une fenêtre de
+commentaires. La fenêtre Kibitz est seulement disponible pour les 
+parties en ligne. Vous pouvez voir le Kibitz défiler plutôt que de voir 
+les commentaires Kibitz pour chaque coup. Toutefois, vous pouvez toujours 
+aller à la fenêtre des commentaires par une option du menu. La fenêtre
+Kibitz affiche aussi les messages du serveur.
+
+Cette zone de commentaire vous permet d'ajouter des commentaires à 
+vos parties. Certains commentaires sont ajoutés automatiquement par le serveur. 
+Un retour à la ligne dans les commentaires sera sauvegardé (dans un fichier) 
+comme un saut de paragraphe.
+
+Options
+
+Si vous avez cochez l'option, il y aura un champ d'envoi supplémentaire.
+Taper du texte à cet endroit et taper Entrée envoie le texte non traité au 
+serveur.  
+
+De plus, il devrait y avoir un texte précisant le temps restant pour chaque 
+joueur. Si non, les temps sont affichés dans le titre de la fenêtre ou en grand 
+au-dessus de la zone à commentaire.
+
+Si selectionnée, la grande horloge affichera le temps restant pour les blancs
+et les noirs (blanc à gauche). L'horloge deviendra rouge s'il reste moins de 
+60 secondes, rouge clair s'il reste moins de 30 secondes. Si choisi, un 
+son sonnera à 30, 20 et 10 secondes de temps restant.
+
+Les options du plateau
+
+Vous pouvez choisir la couleur du plateau, des pierres et du reflet dans le 
+menu des options, mais c'est mieux de chosir une couleur marron 
+(pour le goban). De plus, vous pouvez choisir un joli plateau en bois avec
+des pierres anti-aliasées, qui projettent des ombres sur le plateau. Cela
+prend du temps à s'afficher la première fois et à chaque fois que vous
+redimensionnez le plateau.
+
+Notez que certaines options du plateau doivent être sélectionnées avant 
+que le plateau soit affiché la première fois. Toutefois, l'apparence des coordonnées 
+et les options de couleurs sont accessibles tout le temps.

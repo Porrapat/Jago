@@ -1,0 +1,41 @@
+Fenêtre de terminal
+
+Les serveurs Internet de Go sont sur des machines distantes. Chaque client
+ou session Telnet "discute" avec le serveur sur un port internet. Le dialogue
+est asynchrone. Donc vous pouvez envoyer des commandes pendant que le
+serveur envoie des données.
+
+Pour envoyer quelque chose au serveur, taper dans la zone de saisie et taper
+Entrée. Si vous faîtes précéder votre commande d'un espace, ce que vous avez 
+taper ne sera pas (ré)affiché dans la fenêtre du terminal (l'espace sera enlevé). 
+
+Dans ce programme, les sorties recues sont affichées dans le terminal 
+après filtrage. Vous ne verrez pas les coups de votre adversaire dans 
+cette fenêtre. Les coups sont plutôt envoyés directement sur le plateau de jeu. 
+Certains messages sont affichés dans des fenêtres séparées pour attirer 
+votre attention. 
+
+Dans l'autre sens, les commandes ne vont pas toutes envoyées 
+directement au serveur sans aboir été préalablement filtrées. 
+Le programme effectue un contrôle. Si vous avez l'état d'une partie 
+avec la commande status il n'y aura pas de plateau pour afficher la partie.
+Vous devez utiliser les boutons de la fenêtre de terminal  ou de la fenêtre 
+de plateau. Toutefois, un plateau s'affiche automatiquement, si des coups 
+d'un partie inconnue sont recus, car on suppose qu'il s'agit d'une nouvelle 
+partie. Le protocole IGS est un peu bizarre et mal fait, on doit donc parfois 
+faire des hypothèses.
+
+Si vous jouez une partie, les coups sont envoyés directement à partir
+du plateau au serveur. Vous pouvez parler à votre adversaire ou 
+"kibitzer" à partir du plateau de jeu. On peut aussi le faire à partir 
+de la zone de saisie dans la fenêtre de terminal.
+
+Vous pouvez sauver toutes les informations de la fenêtre dans un fichier
+grâce à la commande appropriée dans le menu.
+
+Enfin, fermer cette fenêtre metra fin à votre connexion au serveur 
+et fermera tous les plateaux de jeu.
+ 
+Sous Windows 95, vous pouvez ne pas pouvoir entrer l'arobase @ 
+directement. Appuyez ALT, et taper 64 en même temps puis relâcher.
+

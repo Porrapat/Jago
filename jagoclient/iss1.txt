@@ -1,0 +1,33 @@
+; This is the Jago setup script
+
+[Setup]
+Bits=32
+AppName=Jago
+AppVerName=Jago Version 4.54
+AppCopyright=Copyright © 1998,1999 René Grothmann, 2003 Askywhale
+DefaultDirName=Jago
+DefaultGroupName=Jago
+InfoBeforeFile=Readme
+
+[Dirs]
+"{app}\doc",
+
+[Registry]
+; Parameter quick reference:
+;   "Root key", "Subkey", "Value name", Data type, "Data", Flags
+
+[Icons]
+; Parameter quick reference:
+;   "Icon title", "File name", "Parameters", "Working dir (can leave blank)",
+;   "Custom icon filename (leave blank to use the default icon)", Icon index
+"{group}\Jago (1.3)", "javaw", "-cp jago.jar;JagoResource_de.jar Go", "{app}", "{app}\BOARD.ICO", 0
+"{group}\Jago (1.1)", "jrew", "-cp jago.jar;JagoResource_de.jar Go", "{app}", "{app}\BOARD.ICO", 0
+"{group}\Jago (MS)", "wjview", "/cp:p jago.jar;JagoResource_de.jar Go", "{app}", "{app}\BOARD.ICO", 0
+"{group}\Jago alt. (1.3)", "java", "-cp jago.jar;JagoResource_de.jar Go", "{app}", "{app}\BOARD.ICO", 0
+"{group}\Jago alt. (1.1)", "jre", "-cp jago.jar;JagoResource_de.jar Go", "{app}", "{app}\BOARD.ICO", 0
+"{group}\Jago alt. (MS)", "jview", "/cp:p jago.jar;JagoResource_de.jar Go", "{app}", "{app}\BOARD.ICO", 0
+"{group}\Documentation", "{app}\doc\Go.html", "", "{app}\doc", "", 0
+
+[Files]
+; Parameter quick reference:
+;   "Source filename", "Dest. filename", Copy mode, Flags

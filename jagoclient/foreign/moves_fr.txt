@@ -1,0 +1,35 @@
+Jouer un coup
+
+Pour jouer un coup, cliquez sur le plateau de jeu. Noter que vous ne 
+pouvez ajouter un coup qu'à la fin de l'arbre de jeu. Pour créer une 
+variante, cliquez tout en appuyant sur Majuscule (touche shift). Cela 
+créera une variante, dont le coup actuel est remplacé par un autre coup
+de la même couleur. Vous pouvez aussi utiliser le bouton droit de la souris
+mais seulement si vous cliquez sur une interection vide, qui ne contient 
+pas de marque d'une variante.
+
+Consulter l'aide sur les variantes pour plus de détails sur l'arbre de jeu.
+
+Pour aller à une variante, cliquez sur la marque verte en appuyant
+en même temps sur CRTL. Ou utiliser un clic droit pour cela. 
+ 
+Corriger une erreur dans l'arbre de jeu
+ 
+Pour corriger une erreur, il vaut mieux annuler tous les coups jusqu'à 
+cette erreur. Ou aller jusqu'à celle-ci et annuler le coup. Vous pouvez 
+aussi utiliser un Maj-CTRL clic. Dans ce cas, le coup sera placé sur 
+l'intersection cliquée, (elle doît être vide). Cela peut embrouiller la partie 
+si vous faites cela de manière incorrecte. Soyez certain que 
+l'intersection reste vide dans toute la partie de l'arbre restant. 
+
+Vous pouvez aussi rajouter un noeud vide dans l'arbre de la partie; 
+grâce à l'entrée de menu "Insérer un noeud". C'est utile pour ajouter 
+un commentaire sans semer la confusion avec les marques déjà présentes.
+
+Vous pouvez aussi ajouter ou supprimer des pierres (blanches ou noires). 
+Mais cela risque plutôt de rendre la partie confuse. Vous pouvez le faire 
+en Maj-CTRL cliquant. De plus, enlevez une pierre sur une intersection 
+qui en contient déjà une, n'est autorisé que si vous déselectionnez 
+"Enregistrez en pur SGF". 
+
+Sinon une nouvelle variante est crée.

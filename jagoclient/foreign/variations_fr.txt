@@ -1,0 +1,58 @@
+A propos des variantes 
+
+Les parties sont stockées sous forme d'arbre. Chaque noeud (ou feuille) 
+de l'arbre peut avoir plusieurs fils. Descendre à partir de la racine en 
+choisissant le premier fils à chaque fois donne la variante principale. 
+Toutes les autres variantes sont considérées comme variantes secondaires.
+
+Vous créez une variante à partir du coup courant en cliquant à une position
+alternative pour ce coup tout en pressant Maj (touche shift). Ce genre de 
+variantes se voit facilement sur le plateau avec les points verts. Vous pouvez
+parcourir n'importe laquelle de ces variantes en CTRL-cliquant (i.e. en cliquant
+tout en maintenant enfoncée la touche CTRL) sur un de ces points.
+
+Vous pouvez aussi créer des variantes et passer dans celle-ci avec le 
+bouton droit de la souris.
+
+Il y deux types d'affichage des variantes. Les variantes peuvent apparaître
+comme alternative à un coup ou comme coup suivant possible. Dans tous 
+les cas, les variantes sont affichées avec des points verts sur le plateau de jeu. 
+On peut aussi complètement cacher les informations affichées, dans le cas où
+l'auteur du SGF a fourni des marques pour les variantes. Même dans ce cas,
+il est possible de passer à une variante par un clic droit (ou par un ctrl-clic 
+gauche). Les options pour l'affichage des variantes se trouve dans le menu 
+du plateau. 
+
+Chaque noeud peut avoir un nom, que vous donnez grâce à la touche insert
+ou l'entrée de menu correspondante. Il y a une entrée de menu pour chercher
+le noeud nommé suivant. Le nom du noeud s'affiche sous le plateau, mais 
+seulement si le curseur n'est pas sur le plateau.
+
+Un noeud peut aussi avoir un commentaire, qui est affiché et modifiable dans 
+la fenêtre des commentaires (désactiver la fenêtre Kibitz pour les jeux 
+non-locaux). Il y a la possiblité de chercher du texte dans les commentaires.
+La recherche parcourera chaque variante et s'arretera à la racine si rien
+n'est trouvé.
+
+Il est aussi possible de créer une variante à partir de l'entrée du menu.
+Dans ce cas, un noeud vide est ajouté comme variante. Une nouvelle pierre
+sera alors associée à ce noeud vide, à moins que que vous ajoutiez un 
+commentaire ou effectuiez une autre action sur ce noeud avant de poser 
+une pierre. Dans ce dernier cas, un noeud sans coup sera présent. 
+
+Cette fonctionnalité vous offre la possibilité d'analyser des parties en-ligne
+localement. Créer une nouvelle variante et définisser le dernier coup de
+de votre adversaire. Etudier alors la postion. Les changements ne 
+s'appliqueront à l'arbre principal mais à la variante secondaire qui vient d'être
+crée.
+
+Vous pouvez aussi ajouter un noeud vide à la fin de de chaque arbre de jeu 
+grâce à l'entrée de menu correspondante.
+
+Prenez note que la numérotation commence à 1 dans chaque variante.
+
+Pour les parties non-locales, certaines actions peuvent être bloquées pour la 
+variante principale, parce qu'elles sont censées être contrôler par le serveur. 
+Les coups à la fin de la variante principale peuvent être envoyés au serveur 
+au lieu du plateau. Le serveur envoie le coup plus tard, mais vous avez 
+une marque une fois que vous avez envoyer le coup au serveur. 

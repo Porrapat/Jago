@@ -1,0 +1,32 @@
+Keyboard Shortcuts
+
+In the board window, it is possible to use the keyboard for navigation 
+through the game tree. However, you need to click on the board first 
+(or very close to it) to give it the keyboard focus.
+
+The following commands are available.
+
+cursor down,up <-> moves through the game tree.
+page up,down <-> moves fast up or down.
+cursor left,right <-> switches between variations.
+*,home <-> goes up to the first variation.
+/,end <-> goes to the end of the main variation (like **).
+v,V <-> goes to the start of the variation.
+backspace,delete <-> undo.
+insert <-> set node name.
++ <-> go to the next named node.
+- <-> go to the previous named node.
+
+Furthermore:
+
+f,F <-> search for a comment.
+m,M <-> set marks.
+c,C <-> set circle marks.
+t,T <-> set triangle marks.
+s,S <-> set square marks.
+r,R <-> set cross marks.
+l,L <-> set letters.
+b <-> set black stones.
+W <-> white to play.
+B <-> black to play.
+p <-> resume playing.

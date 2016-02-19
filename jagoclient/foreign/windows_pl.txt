@@ -1,0 +1,27 @@
+Zarz¹dzanie okienkami
+
+Szczegó³y zale¿¹ od posiadanego przez ciebie systemu operacyjnego.
+
+Pozycja i wielkoœæ poszczególnych okienek zapisywana jest w pliku
+GO.CFG. JAGO zapisuje ten plik w aktywnym katalogu, tak wiêc pamiêtaj
+¿e musi mieæ on w³¹czon¹ mo¿liwoœæ zapisu. W przypadku gdy z jednej
+kopii klienta korzysta wielu u¿ytkowników, ka¿dy z nich powinien podaæ
+swój aktywny katalog w trakcie instalacji, dziêki czemu JAGO
+uruchamiaæ siê bêdzie z tego w³aœnie katalogu. Katalog taki wpisuje
+siê do pliku z parametrem -home.
+
+W wiêkszoœci systemów w polach tekstowych dostêpna jest funkcja
+wytnij-wklej. W Windows u¿ywa siê CTRL-C aby skopiowaæ tekst i CTRL-V
+aby go wkleiæ do odpowiedniego pola JAGO. Do kopiowania daje te¿
+dostêp klikniêcie prawym przyciskiem myszy (menu rozwijalne).
+Standardowo JAGO u¿ywa podstawieñ w polach tekstowych, jednak w menu
+zaawansowanych opcji mo¿na wybraæ opcjê NORMAl, dziêki której tekst
+mo¿e byæ ró¿nokolorowy i nie ma ograniczeñ wielkoœci. Podstawienia te¿
+mog¹ byæ kopiowane do schowka.
+
+Okno dialogowe zamyka siê przyciskiem ESC po warunkiem ¿e jest do
+niego dostêp z klawiatury.
+
+Wejœciowe pola tekstowe, za pomoc¹ których przesy³a siê komendy na
+serwer maj¹ dostêp do historii poleceñ. Poprzednie komendy przywo³ywaæ
+mo¿na za pomoc¹ przycisku Cursor Up.

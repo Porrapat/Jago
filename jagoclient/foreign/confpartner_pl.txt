@@ -1,0 +1,57 @@
+Konfiguracja "Partner Connection"
+
+Partner Connections s± ta po³±czenia osób graj±cych przez Internet. Po
+po³±czeniu siê, wy¶wietlane jest okienko do rozmów oraz plansza do
+gry. W przeciwieñstwie do wiêkszo¶ci serwerów Go otrzymujesz dok³adny
+czas namys³u. 
+
+Osoba pierwsza musi uruchomiæ serwer czekaj±c na po³±czenie. Osoba
+druga chc±c grac z osoba pierwsza naciska przycisk CONNECT w celu
+po³±czenia do tego serwera. To powoduje nawi±zanie po³±czenia. Mo¿esz
+ustawiæ port serwera ale zalecane jest u¿ywanie 6970. Co wiêcej
+powiniene¶ przypisaæ nazwê do swojego serwera. 
+
+W celu ustawienia parametrów serwera osoby, z któr± chcesz grac
+(po³±czyæ siê) wybierz Partner Connections a nastêpnie EDIT lub ADD.
+Wprowad¼ nastêpuj±ce dane:
+
+- Name (nazwa osoby)
+- Server (internetowy adres serwera)
+- Port (preferowany 6970)
+- State (zobacz poni¿ej) *
+
+Aby skonfigurowaæ swój serwer, wybierz opcje Partner->Name z górnego
+menu i wpisz swoje imiê (np. Slawek 6kyu). Nie zmieniaj adresu portu
+(6970) je¿eli wcze¶niej nie ustali³e¶ tego z osob±, z która chcesz
+grac. 
+
+Osoba, z która grasz wybiera opcje Partner a nastêpnie Start Server z
+górnego menu. Uruchomiony serwer oczekuje na zg³oszeñ na konkretnych
+porcie. Aby siê po³±czyæ naci¶nij przycisk "Connect". Powodzenia ! 
+
+* Je¶li wybierzesz serwer publiczny (opcja Partner->Public) z górnego
+menu Jago udostêpni Twój serwer do wszystkich po³±czeñ, których stan
+jest inny ni¿ "silent". Te serwery z kolei przeka¿± adres do
+wszystkich po³±czonych serwerów innych ni¿ "private". "Local"
+ustawiony w oknie state znaczy, i¿ serwer mo¿e przekazaæ adres do
+po³±czonych serwerów ale te dalej nie bêd± tego kontynuowaæ. Takie
+w³a¶nie s± znaczenia poszczególnych opcji w oknie state. 
+
+Dodatkowo wszystkie serwery, które otrzyma³y informacje od Ciebie
+ode¶l± informacje o przy³±czonych serwerach do Ciebie (zachowuj±c
+powy¿sze regu³y). Listê dostêpnych serwerów mo¿esz uzyskaæ naciskaj±c
+przycisk "open?". 
+
+U¿ywaj±c tej opcji mo¿esz mieæ mniejsza czy wiêkszej sieci dostêpnych
+serwerów.  
+
+Powy¿ej opisana komunikacja odbywa siê poprzez wysy³anie tzw.
+datagrams do drugiej osoby. Do tego celu u¿ywany jest port. Jest to
+port partnera + 2 (domy¶lnie 6972).
+
+W przypadku wy³±czenia serwera (opcja Partner->Stop Server z górnego
+menu) osoba, z która grasz zobaczy komunikat "Server is busy".
+Jednak¿e osoby maj±ce Twój serwer na li¶cie dostêpnej z opcji "Open?",
+bêd± nadal widzia³y go jako dostêpny.  
+
+

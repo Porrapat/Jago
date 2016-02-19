@@ -1,0 +1,41 @@
+Parnterverbindungen Einrichten
+
+Partnerverbindungen sind Verbindungen von einem Spieler zu einem 
+anderen. Sie können mit dem Partner schwätzen oder ein Spiel spielen.
+
+Einer der Partner muß seinen Server starten. Der andere verbindet sich 
+mit diesem Server. Sie können den Port für den Server einstellen, er 
+sollte aber 6970 sein. Außerdem sollten Sie einen Namen für Ihren Server 
+fstlegen.
+
+Zum Einrichten der Partnerverbindung, gehen Sie auf die Seite mit den 
+Partnerverbindungen und drücken Sie "Bearbeiten" oder "Hinzufügen". 
+Geben Sie folgendes ein:
+
+- Einen Namen für die Verbindung.
+- Die Internet-Adresse des Partner-Servers.
+- Seinen Port (normalerweise 6970)
+- Den Status für den Partner (siehe unten).
+
+Sie können dann mit diesem Partner eine Verbindung aufnehmen, sofern er 
+seinen Server gestartet hat.
+
+Um den Server einzurichten, wählen Sie einen Namen für sich (Format: 
+"Name (Stärke)"). Setzen Sie den Port auf 6970 und starten Sie den 
+Server. Nun warten Sie auf eine Verbindung.
+
+Wenn Sie einen öffentlichen Server starten, wird der Startvorgang an 
+alle Partner weitergemeldet, die nicht als "still" konfiguriert sind. 
+Diese Server publizieren das weiter, außer wenn sie den Status "privat" 
+haben. Ein lokaler Status bedeutet, daß diese Partner Ihren Start 
+maximal eine Station weitermelden.
+
+Jeder Server, der Ihren Start erkennt, gibt Ihnen eine Liste mit 
+bekannten, öffentlichen Servern zurück. Diese Liste können Sie mit dem 
+"Offen?"-Knopf abfragen.
+
+Diese Kommunikation findet mit Hilfe von Datagrammen über den Port 6972 
+statt.
+
+Wenn Sie Ihren Server anhalten, sendet er Busy-Messages zu den Partnern.
+

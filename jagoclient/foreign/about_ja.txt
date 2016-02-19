@@ -1,0 +1,155 @@
+茶゛碁クライアント
+
+インターネット碁サーバー用クライアント／SGFビュアー
+Rene Grothmann が制作し、著作権を保持します。
+
+このプログラムはフリーウェアです。作者名を明らかにして、
+フリーウェアであることを明確にしていただければ、配布自由
+です。フリーウェアのライブラリやディスクに入れていただい
+ても結構です。
+
+作者はこのプログラムに関して一切責任を負いません。
+あなた自身の責任でこのプログラムを使ってください。
+
+最新のバージョンについては次のページをご覧下さい。
+
+http://www.ah.wakwak.com/~tomyam/jago/jago.html
+http://mathsrv.ku-eichstaett.de/MGF/homes/grothmann/jago"/Go.html".
+
+バグがあった場合は、下記までメールをお願いします。
+"tomyam@anet.ne.jp"
+"grothm@ku-eichstaett.de".
+
+
+バージョン 4.00 以降の変更点
+
+- 碁盤窓にアイコンを装備。編集をしやすくした。
+4.01
+- オンライン対局碁盤窓に送信アイコンを追加。
+- オンライン対局碁盤から編集専用アイコンを削除。
+- 変化ツリーの次の着手のバグフィックス。
+- アイコンにヘルプ追加。
+4.02
+- IGSでたまに起きるTelnet問題を解決。
+4.03
+- 「ボタン表示」をクリックした時のバグフィックス。
+4.04
+- アイコンを見やすく改良。
+- Courier, TimesRoman and Helvetica フォントを追加。
+4.05
+- InstallAnywhere Now!　をインストーラに採用。
+4.06
+- 中国語リソースを追加(InstallAnywhere)
+- サイズの小さい従来型のインストーラもサポートする。
+4.07
+- サウンド問題をフィックス。Java 1.1, Java 1.3 共サウンドＯＫ
+- 碁盤窓から空行送信可。WINGでヘルプの続きを見る時、Enter送信可。
+- エクストラ送信ダイアログを碁盤中央に開くよう設定変更。
+- フォントエディタ窓が前回の位置を記憶出来るようにした。
+- デフォルトの接続フォントを Monospaced に変更。
+4.08
+- サウンドファイルサイズ縮小
+4.09
+- 背景カラー設定を改善
+4.10
+- お化粧なおし（重要な変更なし）
+4.11
+- Removed the help-in-dialog bug that came up with Java 1.3.
+- Removing games only works with more than two games now.
+.12
+- XML reader and writer update.
+- IconBar update (esp. tooltips).
+4.13
+- Jago can be started with "java -jar jago.jar" in Java 1.3.
+- JagoGame Applet fixed.
+4.14
+- Undo works in GMP games now.
+4.15
+- SGF does no longer save tags with empty actions (like KM[]).
+  (thanks to Ed Gaillard for the hint).
+4.16
+- Fixed the behaviour of "delete stone" a bit. (thanks to Harald
+  Boegeholz)
+4.17
+- Server port for partner server can now be changed.
+- Fixed a problem with numbers on last move.
+4.18
+- New version of Windows installer.
+4.19
+- Fixed removal of white stones (delets AW tag now).
+- Optional continued numbering in variations.
+- Frame title now displays game title for loaded games.
+- Positions can be saved.
+4.20
+- Frame title and game information now contains filename of saved
+  games, if that was empty before.
+- Java Web Start.
+- Configuration files are stored in user home directory instead of the
+  current directory. If needed, copy old files (*.cfg) to new
+  location, which you find by searching c:\ for "go.cfg". Sorry, this
+  had to be done!
+4.21
+- Fixed the error with closing IGS connections by closing the frame in
+  Linux.
+4.22
+- Played and teaching games now send adjourn, when the game is saved.
+- There is a forward button to send ">" in teaching games now.
+4.23
+- Configuration files are always in the user home directory, unless
+  the -h parameter is used.
+- Updated server.cfg with lots of new servers (thanks to Nikolay
+  Nemov)
+4.24
+- Updated the XML format with downward compatibility (besides the XSL
+  style sheet, which works only for the new format).
+4.25
+- Variation marker will not display, when a mark or letter is already
+  at that position.
+- Kogo's joseki library is recognized by its filename, and variation
+  display is temporarily fixed.
+- For Java 1.1 Jago installed via the Windows installer, the memory size is
+  increased to support large SGF files.
+4.25b
+- 対局終了メニューに「投了」と「パス」を追加
+- チャンネル窓最小化時にチャンネル番号を表示
+4.25c
+- 入場者ウインドウのメニューから観戦可
+4.26
+- Polnish translation (thanks to Slawek Petex)
+- LocalGo now accepts a move number after the file name.
+- Set Language now appears in English on all systems.
+- The Windows Installer now installs all locales I have.
+- The Web presentation was extended and improved.
+- Game reloads in partner connections now handle handicap stones correctly.
+- Some dialog (like the one popping up after stats) can now be used to
+  start observing games, playing games and so on.
+4.26a
+- 茶碁Main windowの英語併記をやめる(action)
+4.27
+- Fixed a bug in the board coordinates. Might also affect XML output
+4.28
+- Jago homepage had to switch to another server. (www.rene-grothmann.de/jago)
+4.29
+- Fixed a bug with very large comments.
+4.30a
+-メッセージダイアログに「相手情報」(stats)ボタンを追加
+4.31
+- Fixed a bug for Windows installations in long directories, or
+  directories with blanks like "c:\Program files\Jago". 
+- Now all foreign resources are bundled in "JagoResource.jar", english
+  is contained in "jago.jar".
+- Updated the documentation for foreign resources.
+注：茶碁インストールサイトのリソースはサイズを小さくするために
+日本語のみです。外国語の必要な方はGrothmannのサイトからゲットしてください。
+4.32
+- Two options in local boards moved to the options menu.
+- Renamed siblings to variations, and children to moves.
+4.33
+- Fixed the missing resources in 4.32.
+4.34
+- Korean translation (first draft).
+- Advanced option to turn off who and games windows.
+4.35
+- The Java Web Start service had to bo stopped. Please instlal
+  JagoClient locally.
+- Tried to fix the Window resize bug in Mac OSX.

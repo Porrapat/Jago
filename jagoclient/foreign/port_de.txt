@@ -1,0 +1,4 @@
+Hiermit bestimmen Sie den Port für den Server für Partnerverbindungen. 
+Der normale Port sollte 6970 sein.
+
+

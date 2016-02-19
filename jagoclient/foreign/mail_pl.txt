@@ -1,0 +1,15 @@
+Wysy³anie gier
+
+Istnieje mo¿liwo¶æ wysy³ania gier.
+
+Gdy wybierzesz w menu pozycjê Mail pojawi siê okno dialogowe, w którym
+nale¿y wprowadziæ swój adres e-mail, adres odbiorcy i nag³ówek listu.
+Poza tym trzeba podaæ adres serwera SMTP - serwera, który po¶redniczy
+w przesy³aniu twoich listów. Je¿eli masz jakie¶ w±tpliwo¶ci skontaktuj
+siê ze swoim administratorem. Adres ten mo¿na odnale¼æ w opcjach
+twojej przegl±darki.
+
+Teraz mo¿esz dokonaæ edycji listu. Przed w³a¶ciwym zapisem gry mo¿na
+wstawiæ komentarz, pod warunkiem ¿e nie rozpoczyna siê linii od "(",
+co mog³oby spowodowaæ ¿e przegl±darka SGF nie odnalaz³aby pocz±tku
+partii

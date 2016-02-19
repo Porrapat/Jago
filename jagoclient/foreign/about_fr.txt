@@ -1,0 +1,213 @@
+JagoClient Version 4.52
+
+un client pour jouer au go sur les serveurs Internet et 
+visualiser les fichiers SGF, programmer et appartenant (copyright) 
+à Rene Grothmann.
+
+Ce grogramme est un freeware  sous licence GPL 
+(Gnu General Public Licence)
+
+L'auteur n'est pas responsable des disfonctionnements du programmme.
+Vous l'utilisez à vos risques et périls.
+
+Pour une version récente, aller sur 
+
+"http://www.rene-grothmann.de/jago/".
+
+En cas de problème ou de bogue, envoyer un email à
+"jago@rene-grothmann.de".
+
+Traduction de l'aide en français par zebul666
+zebul666@hotmail.com
+
+
+Changement depuis la version 4.00: 
+
+4.00
+- New look of the board windows. Displays icons now for easy editing.
+4.01
+- Added a send icon for connected Go boards.
+- Removed the board editor icons for connected Go boards.
+- Fixed variation display in second move of game tree.
+- Addes icon help texts.
+4.02
+- Tried to fix some rare Telnet problems with IGS. Seems to work now.
+4.03
+- Fixed the strange behaviour of the "Show Buttons" command.
+4.04
+- Improved the icons somewhat.
+- It is now possible to choose Courier, TimesRoman and Helvetica fonts
+  from the font list.
+4.05
+- New Installers using InstallAnywhere Now!
+4.06
+- Added Chinese resource to InstallAnywhere
+- Kept an smaller Windows installer for Java 1.3
+4.07
+- Fixed the sound problem. Sound now works with Java 1.1 using sun.audio
+  and with Java 1.3 using the new Media API.
+- The send field in the board window now sends empty lines.
+- The send field dialog now centers to the board.
+- The font editor now remembers its previous position.
+- The default connection font is now Monospaced.
+4.08
+- Improved some sound issues.
+4.09
+- New option for variation display. This accomodates viewing files, which
+  were generated under MGT or other programs, which have no onboard
+  variation display.
+- It is now possible to create variations to an observed game with the
+  mouse.
+- Changed some background colors from system to the color set by the
+  user.
+4.10
+- Unimportant cosmetic changes.
+- The Windows installer now installs for several Java versions.
+4.11
+- Removed the help-in-dialog bug that came up with Java 1.3.
+- Removing games only works with more than two games now.
+4.12
+- XML reader and writer update.
+- IconBar update (esp. tooltips).
+4.13
+- Jago can be started with "java -jar jago.jar" in Java 1.3.
+- JagoGame Applet fixed.
+4.14
+- Undo works in GMP games now.
+4.15
+- SGF does no longer save tags with empty actions (like KM[]).
+  (thanks to Ed Gaillard for the hint).
+4.16
+- Fixed the behaviour of "delete stone" a bit. (thanks to Harald
+  Boegeholz)
+4.17
+- Server port for partner server can now be changed.
+- Fixed a problem with numbers on last move.
+4.18
+- New version of Windows installer.
+4.19
+- Fixed removal of white stones (delets AW tag now).
+- Optional continued numbering in variations.
+- Frame title now displays game title for loaded games.
+- Positions can be saved.
+4.20
+- Frame title and game information now contains filename of saved
+  games, if that was empty before.
+- Java Web Start.
+- Configuration files are stored in user home directory instead of the
+  current directory. If needed, copy old files (*.cfg) to new
+  location, which you find by searching c:\ for "go.cfg". Sorry, this
+  had to be done!
+4.21
+- Fixed the error with closing IGS connections by closing the frame in
+  Linux.
+4.22
+- Played and teaching games now send adjourn, when the game is saved.
+- There is a forward button to send ">" in teaching games now.
+4.23
+- Configuration files are always in the user home directory, unless
+  the -h parameter is used.
+- Updated server.cfg with lots of new servers (thanks to Nikolay
+  Nemov)
+4.24
+- Updated the XML format with downward compatibility (besides the XSL
+  style sheet, which works only for the new format).
+4.25
+- Variation marker will not display, when a mark or letter is already
+  at that position.
+- Kogo's joseki library is recognized by its filename, and variation
+  display is temporarily fixed.
+- For Java 1.1 Jago installed via the Windows installer, the memory size is
+  increased to support large SGF files.
+4.26
+- Polnish translation (thanks to Slawek Petex)
+- LocalGo now accepts a move number after the file name.
+- Set Language now appears in English on all systems.
+- The Windows Installer now installs all locales I have.
+- The Web presentation was extended and improved.
+- Game reloads in partner connections now handle handicap stones correctly.
+- Some dialog (like the one popping up after stats) can now be used to
+  start observing games, playing games and so on.
+4.27
+- Fixed a bug in the board coordinates. Might also affect XML output!
+4.28
+- Jago homepage had to switch to another server. (www.rene-grothmann.de/jago)
+4.29
+- Fixed a bug with very large comments.
+4.30
+- Removed the English text from non-english menu "Actions", but inserted
+  another menu entry "Close and Use English" for systems with non-working
+  font display.
+4.31
+- Fixed a bug for Windows installations in long directories, or
+  directories with blanks like "c:\Program files\Jago". 
+- Now all foreign resources are bundled in "JagoResource.jar", english
+  is contained in "jago.jar".
+- Updated the documentation for foreign resources.
+4.32
+- Two options in local boards moved to the options menu.
+- Renamed siblings to variations, and children to moves.
+4.33
+- Fixed the missing resources in 4.32.
+4.34
+- Korean translation (first draft).
+- Advanced option to turn off who and games windows.
+4.35
+- The Java Web Start service had to be stopped. Please instlal
+  JagoClient locally.
+- Tried to fix the Window resize bug in Mac OSX.
+4.36
+- Fixed some issues with GnuGo, which could confuse GnuGo.
+4.37
+- Removed another problem with GnuGo, which sends moves twice.
+- Removed a but in LocalGo, which caused it to save go.cfg in
+  the current directory.
+4.38
+- Inverted the coordinates for GnuGo, so that its output is
+  the same as Jago's.
+- Closed the input stream to GnuGo before killing it.
+4.39
+- Jago now obeys the Ko rule.
+- Fixed the pass problem in GMP games.
+4.40
+- Bug in Ko rule implementation removed. 4.39 users should update!
+4.41
+- Option to obey Ko rule or not.
+4.42
+- Fixed Ko rule after pass.
+- Fixed resize of Game window.
+4.43
+- Fixed some GMP issues (pass and handicap).
+4.44
+- Programmed around a bug in Sun's Java 1.4.1 (Panels do not redraw).
+4.45
+- Fixed a crash on some XP systems by disabling direct draw offscreen
+  mode.
+- Board and main window sizes now save automatically.
+- Increased the default sizes for modern screens.
+- Save and load dialogs should center now.
+4.46
+- Added a good configuration file, which was missing in 4.45.
+- Fixed some tiny GUI things.
+4.47
+- Fixed the GMP player for calls with parameters.
+4.48
+- Tried to fix a GMP problem with incorrect display of last move.
+- Synchronized loading a game to avoiod confusion.
+4.49
+- Another try to fix the GMP problem.
+4.50
+- Final fix of the GMP problem. Also fixes a problem on IGS with
+  fast computers and very fast connections.
+- Implemented friends list in Who window.
+- Friends list is used in Games window to mark games of friends.
+- Non-automatic login does no longer repeat "Enter Password".
+- Games and Who windows show first games by default.
+4.51
+- There is now a mark list for players like the friends list.
+- Marked players and friends are now detected and displayed in
+  match requests.
+4.52
+- Navigation tree display in local SGF viewer.
+- Navigation buttons are more intuitive now.
+- Marker and text colors change with stone color.

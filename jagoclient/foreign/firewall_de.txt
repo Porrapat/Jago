@@ -1,0 +1,17 @@
+Firewalls
+
+Firewalls blockieren Verbindungen in und aus Teilnetzen. Sie werden aus 
+Sicherheitsgründen eingerichtet. Dies verhindert meist erfolgreich, daß 
+Sie sich direkt bei einem Server einloggen können.
+
+Falls Sie allerdings eine Telnetverbindung nach einem Rechner außerhalb 
+des Firewalls aufnehmen können, so können Sie diese Verbindung zum 
+Einloggen in den Server benutzen.
+
+Geben Sie dazu als Server den Telnet-Server und als Port 23 an. Sobald 
+Sie Vebindung mit dem Server aufgenommen haben, starten Sie dort eine 
+Telnet-Verbindung mit dem Go-Server
+
+telnet igs.nuri.net 6969
+
+Diese Verbindung können wird von Jago normal erkannt.

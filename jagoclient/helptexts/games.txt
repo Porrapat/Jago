@@ -1,0 +1,5 @@
+This is the list of games sorted by the strength of the first player.
+You can select a game and observe it. Alternatively, you can get a
+status of a game, which is a fast static view of the board. Peeking a
+board means that you get the game history, but are not observing the
+game.

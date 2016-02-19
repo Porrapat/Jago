@@ -1,0 +1,18 @@
+Sie sehen in diesem Fenster alle Spieler, die zur Zeit eingeloggt sind. 
+Allerdings können Sie einen Bereich für den Rang der Spieler angeben,
+die angezeigt werden. Außerdem können Sie alle Spieler die auf ein
+Spiel warten (!) selektieren, oder Spieler, die still (Q) oder nicht
+aktiv (X) sind, ausblenden.
+
+Ein Bereich für den Rang sieht so aus: 7k-3d.
+
+Mit dieser Liste können Sie Spieler direkt ansprechen, zu einem Match 
+herausfordern, oder Sie können Informationen über die Spieler 
+anfordern. Wählen Sie dazu einen Spieler und klicken Sie mit der
+rechten Maustaste, um die Option zu wählen. 
+
+Drei Optionen sind vorgegeben, und drei weitere können Sie selbst
+wählen. Dazu gibt es einen Menüpunkt. In dem Dialog setzen Sie das
+Label für die Option und den Text, der an den Server gesendet wird.
+Dabei wird %% durch den Namen des Spielers ersetzt.
+

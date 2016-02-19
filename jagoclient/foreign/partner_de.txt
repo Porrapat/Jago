@@ -1,0 +1,21 @@
+Verbindung zu einem Partner
+
+In diesem Fenster sind sie mit einem Partner verbunden, der irgendwo in 
+der Welt darauf wartet, mit Ihnen Go zu spielen. Sie können auch einfach 
+nur mit ihm schwätzen. Dazu geben Sie Ihren Text in die Textzeile ein 
+und drücken die Eingabetaste.
+
+Wenn Sie ein Spiel beginnen wollen, so müssen Sie die notwendigen 
+Parameter in einen Dialog eingeben. Falls Ihr Partner das Spiel 
+akzeptiert, öffnet sich ein Spielbrett.
+
+Das Spiel ist ähnlich wie ein Spiel auf dem Server. Allerdings wird die 
+Bedenkzeit genau gemessen. Außerdem müssen Sie das Ergebnis selbst 
+auszählen, bzw. von Jago auszählen lassen. Das Ergebnis wird Ihrem 
+Gegner mitgeteilt, und er kann es akzeptieren oder ablehnen.
+
+Das Ergebnis wird chinesisch gezählt, aber das japanische Ergebnis wird 
+ebenfalls ausgegeben.
+
+Sie können auch eine Rücknahme beim Partner beantragen. Allerdings muß 
+der Partner zustimmen, bevor der Zug zurückgenommen wurde.

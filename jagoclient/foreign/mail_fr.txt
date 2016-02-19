@@ -1,0 +1,14 @@
+Envoi des parties (par email)
+
+Vous pouvez envoyez des parties par email.
+
+Si vous choisissez l'entrée dans le menu, apparaîtra alors une boîte 
+de dialogue où vous pourrez taper votre adresse email, l'adresse du 
+destinataire, et le sujet du email. Vous devez aussi entrez le serveur SMTP.
+C'est le serveur qui envoie votre email. Si vous n'êtes pas sûr de vous, 
+demander à votre administrateur système. Vous pouvez aussi trouver l'adresse
+dans les options email de votre navigateur internet. 
+
+Vous pouvez éditer le message. Vous devez entrez vos commentaires avant 
+la partie et ne devez pas commencez une ligne avec une parenthèse "(" pour 
+être sûr que votre visualiseur SGF trouvera le début de la partie.
