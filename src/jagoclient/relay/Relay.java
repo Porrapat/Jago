@@ -1,3 +1,5 @@
+package jagoclient.relay;
+
 import java.io.*;
 import java.net.*;
 
