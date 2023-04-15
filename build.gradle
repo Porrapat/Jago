@@ -38,6 +38,9 @@ application {
             java {
                 srcDirs = ['src']
             }
+            resources {
+                srcDirs = ['src']
+            }
         }
     }
     // Define the main class for the application.
