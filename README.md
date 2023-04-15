@@ -1,7 +1,7 @@
 # Jago
-Jago : Go board GUI for any perpose Go game development
+Jago : Go board GUI for any purpose Go game development
 
-# How to complied it
+# How to compile it
 
 - Using Eclipse
 
@@ -14,6 +14,17 @@ If you need to create .jar file simple go to Eclipse Menu -> File -> Export -> J
 javac Go.java
 java Go
 ```
+
+- Gradle
+```
+./gradlew build
+./gradlew run
+```
+
+- Using IntelliJ IDEA
+
+Open the project with IntelliJ IDEA. It will use gradle build configuration.
+
 
 It will show warning but you can ignore it!
 
