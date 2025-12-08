@@ -1,3 +1,11 @@
+> **Important Notice**  
+> This project is **not my original work**.  
+> It is a **fork of the Jago repository**, kept public because I use it for  
+> testing, research, and Go/Weiqi development experiments.  
+>  
+> Full credit belongs to the original creators of Jago.
+
+
 # Jago
 Jago : Go board GUI for any purpose Go game development
 
